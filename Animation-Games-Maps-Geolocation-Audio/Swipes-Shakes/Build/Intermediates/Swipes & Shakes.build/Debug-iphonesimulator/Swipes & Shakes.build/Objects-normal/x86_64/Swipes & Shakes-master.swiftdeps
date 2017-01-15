@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "cdbd107b73c09baa24ce92cced50b5a5"
+build_time: [535927575, 419362000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Downloads/Swipes & Shakes/Swipes & Shakes/ViewController.swift": [519836536, 0]
+  "/Users/hernaniruegasvillarreal/Downloads/Swipes & Shakes/Swipes & Shakes/AppDelegate.swift": [519835656, 0]

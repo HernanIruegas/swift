@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "a17213ed213adc3df4d6a73baa538d4d"
+build_time: [535940376, 716426000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/sound-shaker/Sound Shaker/ViewController.swift": [535940207, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/sound-shaker/Sound Shaker/AppDelegate.swift": [519812328, 0]

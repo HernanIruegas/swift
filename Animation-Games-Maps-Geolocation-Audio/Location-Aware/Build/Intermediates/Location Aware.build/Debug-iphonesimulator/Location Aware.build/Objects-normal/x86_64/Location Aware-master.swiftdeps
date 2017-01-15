@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "e6b52e2494bdf9133f734f1633c52179"
+build_time: [535765081, 41685000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Location Aware/Location Aware/ViewController.swift": [535748941, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Location Aware/Location Aware/AppDelegate.swift": [519813283, 0]

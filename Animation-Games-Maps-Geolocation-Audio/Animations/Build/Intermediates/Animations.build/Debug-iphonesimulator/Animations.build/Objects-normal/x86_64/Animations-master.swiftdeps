@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "bb888080a1965c99c27b2642dd1518f6"
+build_time: [536051723, 358271000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Animations/Animations/ViewController.swift": [519750843, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Animations/Animations/AppDelegate.swift": [519744279, 0]

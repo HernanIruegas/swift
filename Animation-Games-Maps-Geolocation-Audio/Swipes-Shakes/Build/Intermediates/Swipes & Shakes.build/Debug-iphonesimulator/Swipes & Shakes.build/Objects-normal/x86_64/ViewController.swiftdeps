@@ -1,0 +1,464 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C15Swipes___Shakes14ViewController"
+provides-member:
+- ["C15Swipes___Shakes14ViewController", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "swiped"
+- "motionEnded"
+depends-top-level:
+- !private "~="
+- "AssignmentPrecedence"
+- !private "=="
+- "UIViewController"
+- !private "UISwipeGestureRecognizer"
+- "CastingPrecedence"
+- "UIEventSubtype"
+- "UIGestureRecognizer"
+- !private "print"
+- "UIEvent"
+- "ViewController"
+- !private "StringLiteralType"
+- !private "UISwipeGestureRecognizerDirection"
+depends-member:
+- !private ["Ps9AnyObject", "UIEventSubtype"]
+- !private ["Ps9AnyObject", "UISwipeGestureRecognizer"]
+- !private ["Ps9AnyObject", "UISwipeGestureRecognizerDirection"]
+- !private ["Ps9AnyObject", "ViewController"]
+- !private ["Ps9AnyObject", "addGestureRecognizer"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "direction"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "motionEnded"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "subtype"]
+- ["Ps9AnyObject", "swiped"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "addGestureRecognizer"]
+- !private ["Ps7CVarArg", "UIEventSubtype"]
+- !private ["Ps7CVarArg", "UISwipeGestureRecognizer"]
+- !private ["Ps7CVarArg", "UISwipeGestureRecognizerDirection"]
+- !private ["Ps7CVarArg", "ViewController"]
+- !private ["Ps7CVarArg", "addGestureRecognizer"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "direction"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "motionEnded"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "subtype"]
+- ["Ps7CVarArg", "swiped"]
+- !private ["Ps7CVarArg", "view"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "UIEventSubtype"]
+- !private ["Ps28CustomDebugStringConvertible", "UISwipeGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "UISwipeGestureRecognizerDirection"]
+- !private ["Ps28CustomDebugStringConvertible", "ViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "direction"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "motionEnded"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "subtype"]
+- ["Ps28CustomDebugStringConvertible", "swiped"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "UIEventSubtype"]
+- !private ["Ps23CustomStringConvertible", "UISwipeGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "UISwipeGestureRecognizerDirection"]
+- !private ["Ps23CustomStringConvertible", "ViewController"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "direction"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "motionEnded"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "subtype"]
+- ["Ps23CustomStringConvertible", "swiped"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "UIEventSubtype"]
+- !private ["Ps9Equatable", "UISwipeGestureRecognizer"]
+- !private ["Ps9Equatable", "UISwipeGestureRecognizerDirection"]
+- !private ["Ps9Equatable", "ViewController"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addGestureRecognizer"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "direction"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "left"]
+- ["Ps9Equatable", "motionEnded"]
+- !private ["Ps9Equatable", "motionShake"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "right"]
+- !private ["Ps9Equatable", "subtype"]
+- ["Ps9Equatable", "swiped"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "left"]
+- !private ["Ps25ExpressibleByArrayLiteral", "right"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "UIEventSubtype"]
+- !private ["Ps8Hashable", "UISwipeGestureRecognizer"]
+- !private ["Ps8Hashable", "UISwipeGestureRecognizerDirection"]
+- !private ["Ps8Hashable", "ViewController"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addGestureRecognizer"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "direction"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "motionEnded"]
+- !private ["Ps8Hashable", "motionShake"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "subtype"]
+- ["Ps8Hashable", "swiped"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "UIEventSubtype"]
+- !private ["PSo8NSCoding", "UISwipeGestureRecognizer"]
+- !private ["PSo8NSCoding", "UISwipeGestureRecognizerDirection"]
+- !private ["PSo8NSCoding", "ViewController"]
+- !private ["PSo8NSCoding", "addGestureRecognizer"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "motionEnded"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "swiped"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "UIEventSubtype"]
+- !private ["PSo26NSExtensionRequestHandling", "UISwipeGestureRecognizer"]
+- !private ["PSo26NSExtensionRequestHandling", "UISwipeGestureRecognizerDirection"]
+- !private ["PSo26NSExtensionRequestHandling", "ViewController"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "motionEnded"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "swiped"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "UIEvent"]
+- ["CSo8NSObject", "UIEventSubtype"]
+- ["CSo8NSObject", "UIGestureRecognizer"]
+- !private ["CSo8NSObject", "UISwipeGestureRecognizer"]
+- !private ["CSo8NSObject", "UISwipeGestureRecognizerDirection"]
+- !private ["CSo8NSObject", "ViewController"]
+- !private ["CSo8NSObject", "addGestureRecognizer"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "direction"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "motionEnded"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "subtype"]
+- ["CSo8NSObject", "swiped"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "UIEventSubtype"]
+- !private ["PSo16NSObjectProtocol", "UISwipeGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "UISwipeGestureRecognizerDirection"]
+- !private ["PSo16NSObjectProtocol", "ViewController"]
+- !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "direction"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "motionEnded"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "subtype"]
+- ["PSo16NSObjectProtocol", "swiped"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "left"]
+- !private ["Ps9OptionSet", "right"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps16RawRepresentable", "left"]
+- !private ["Ps16RawRepresentable", "motionShake"]
+- !private ["Ps16RawRepresentable", "right"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps10SetAlgebra", "left"]
+- !private ["Ps10SetAlgebra", "right"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
+- !private ["PSo12UIAppearance", "addGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "UIEventSubtype"]
+- !private ["PSo21UIAppearanceContainer", "UISwipeGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "UISwipeGestureRecognizerDirection"]
+- !private ["PSo21UIAppearanceContainer", "ViewController"]
+- !private ["PSo21UIAppearanceContainer", "addGestureRecognizer"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "motionEnded"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "swiped"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "UIEventSubtype"]
+- !private ["PSo18UIContentContainer", "UISwipeGestureRecognizer"]
+- !private ["PSo18UIContentContainer", "UISwipeGestureRecognizerDirection"]
+- !private ["PSo18UIContentContainer", "ViewController"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "motionEnded"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "swiped"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "addGestureRecognizer"]
+- !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
+- ["CSo7UIEvent", "deinit"]
+- !private ["CSo7UIEvent", "subtype"]
+- !private ["OSC14UIEventSubtype", "RawValue"]
+- ["OSC14UIEventSubtype", "deinit"]
+- !private ["OSC14UIEventSubtype", "motionShake"]
+- !private ["PSo18UIFocusEnvironment", "UIEventSubtype"]
+- !private ["PSo18UIFocusEnvironment", "UISwipeGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "UISwipeGestureRecognizerDirection"]
+- !private ["PSo18UIFocusEnvironment", "ViewController"]
+- !private ["PSo18UIFocusEnvironment", "addGestureRecognizer"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "motionEnded"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "swiped"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addGestureRecognizer"]
+- ["CSo19UIGestureRecognizer", "deinit"]
+- !private ["CSo19UIGestureRecognizer", "direction"]
+- !private ["CSo19UIGestureRecognizer", "init"]
+- ["CSo11UIResponder", "UIEvent"]
+- ["CSo11UIResponder", "UIEventSubtype"]
+- ["CSo11UIResponder", "UIGestureRecognizer"]
+- !private ["CSo11UIResponder", "UISwipeGestureRecognizer"]
+- !private ["CSo11UIResponder", "UISwipeGestureRecognizerDirection"]
+- !private ["CSo11UIResponder", "ViewController"]
+- !private ["CSo11UIResponder", "addGestureRecognizer"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "motionEnded"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "swiped"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "UIEventSubtype"]
+- !private ["PSo30UIResponderStandardEditActions", "UISwipeGestureRecognizer"]
+- !private ["PSo30UIResponderStandardEditActions", "UISwipeGestureRecognizerDirection"]
+- !private ["PSo30UIResponderStandardEditActions", "ViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "addGestureRecognizer"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "motionEnded"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- ["PSo30UIResponderStandardEditActions", "swiped"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "UIEventSubtype"]
+- !private ["PSo16UIStateRestoring", "UISwipeGestureRecognizer"]
+- !private ["PSo16UIStateRestoring", "UISwipeGestureRecognizerDirection"]
+- !private ["PSo16UIStateRestoring", "ViewController"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "motionEnded"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "swiped"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["CSo24UISwipeGestureRecognizer", "deinit"]
+- !private ["CSo24UISwipeGestureRecognizer", "direction"]
+- !private ["CSo24UISwipeGestureRecognizer", "init"]
+- ["VSC33UISwipeGestureRecognizerDirection", "deinit"]
+- !private ["VSC33UISwipeGestureRecognizerDirection", "left"]
+- !private ["VSC33UISwipeGestureRecognizerDirection", "right"]
+- !private ["PSo18UITraitEnvironment", "UIEventSubtype"]
+- !private ["PSo18UITraitEnvironment", "UISwipeGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "UISwipeGestureRecognizerDirection"]
+- !private ["PSo18UITraitEnvironment", "ViewController"]
+- !private ["PSo18UITraitEnvironment", "addGestureRecognizer"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "motionEnded"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "swiped"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addGestureRecognizer"]
+- ["CSo16UIViewController", "UIEvent"]
+- ["CSo16UIViewController", "UIEventSubtype"]
+- ["CSo16UIViewController", "UIGestureRecognizer"]
+- !private ["CSo16UIViewController", "UISwipeGestureRecognizer"]
+- !private ["CSo16UIViewController", "UISwipeGestureRecognizerDirection"]
+- !private ["CSo16UIViewController", "ViewController"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "motionEnded"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "swiped"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["C15Swipes___Shakes14ViewController", "UIEvent"]
+- ["C15Swipes___Shakes14ViewController", "UIEventSubtype"]
+- ["C15Swipes___Shakes14ViewController", "UIGestureRecognizer"]
+- !private ["C15Swipes___Shakes14ViewController", "UISwipeGestureRecognizer"]
+- !private ["C15Swipes___Shakes14ViewController", "UISwipeGestureRecognizerDirection"]
+- !private ["C15Swipes___Shakes14ViewController", "ViewController"]
+- ["C15Swipes___Shakes14ViewController", "deinit"]
+- ["C15Swipes___Shakes14ViewController", "didReceiveMemoryWarning"]
+- ["C15Swipes___Shakes14ViewController", "init"]
+- ["C15Swipes___Shakes14ViewController", "motionEnded"]
+- !private ["C15Swipes___Shakes14ViewController", "print"]
+- ["C15Swipes___Shakes14ViewController", "swiped"]
+- !private ["C15Swipes___Shakes14ViewController", "view"]
+- ["C15Swipes___Shakes14ViewController", "viewDidLoad"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addGestureRecognizer"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "UIEventSubtype"]
+- !private ["Ps9_Hashable", "UISwipeGestureRecognizer"]
+- !private ["Ps9_Hashable", "UISwipeGestureRecognizerDirection"]
+- !private ["Ps9_Hashable", "ViewController"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addGestureRecognizer"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "direction"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "motionEnded"]
+- !private ["Ps9_Hashable", "motionShake"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "subtype"]
+- ["Ps9_Hashable", "swiped"]
+- !private ["Ps9_Hashable", "view"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- "V10ObjectiveC8Selector"
+- !private "Ps10SetAlgebra"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "CSo7UIEvent"
+- "OSC14UIEventSubtype"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo19UIGestureRecognizer"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "CSo24UISwipeGestureRecognizer"
+- "VSC33UISwipeGestureRecognizerDirection"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C15Swipes___Shakes14ViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "d533ff3e86878fb3d8abccff2697df2b"

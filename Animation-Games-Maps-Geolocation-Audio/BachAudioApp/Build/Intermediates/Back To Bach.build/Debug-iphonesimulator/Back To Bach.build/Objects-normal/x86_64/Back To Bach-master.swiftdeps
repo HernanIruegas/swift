@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "d2f3a68d9f7ed3406326c61250becdbc"
+build_time: [535927408, 485202000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/5.11/Back To Bach/ViewController.swift": [535927218, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/5.11/Back To Bach/AppDelegate.swift": [519803854, 0]

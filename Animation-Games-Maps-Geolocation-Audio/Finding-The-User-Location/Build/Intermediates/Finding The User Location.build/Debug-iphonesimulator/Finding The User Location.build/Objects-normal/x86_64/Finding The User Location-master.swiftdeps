@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "35ce40659b7a815cfa90c14d8220248f"
+build_time: [535705788, 685371000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Downloads/Finding The User Location/Finding The User Location/ViewController.swift": [519764021, 0]
+  "/Users/hernaniruegasvillarreal/Downloads/Finding The User Location/Finding The User Location/AppDelegate.swift": [519762671, 0]

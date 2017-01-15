@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "cd349689de21e832458a643bf08cc619"
+build_time: [535853135, 332748000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/memorable-places/Memorable Places/PlacesViewController.swift": [535853122, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/memorable-places/Memorable Places/ViewController.swift": [535853122, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/memorable-places/Memorable Places/AppDelegate.swift": [519790588, 0]
