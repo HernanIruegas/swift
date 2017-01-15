@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "449328504afb3c2611a0deadadc2e928"
+build_time: [535525298, 655788000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/download-WebContent/download-WebContent/ViewController.swift": [535525264, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/download-WebContent/download-WebContent/AppDelegate.swift": [535525050, 0]

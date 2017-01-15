@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "6a80e9b7206f3df19c5ff4888940799a"
+build_time: [535426034, 396952000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/timesTable/timesTable/ViewController.swift": [535426034, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/timesTable/timesTable/AppDelegate.swift": [535425780, 0]

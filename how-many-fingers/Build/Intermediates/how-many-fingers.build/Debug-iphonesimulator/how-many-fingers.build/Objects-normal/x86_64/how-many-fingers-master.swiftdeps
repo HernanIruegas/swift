@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "4747db2b27da5e51b0b504a4b8c1015e"
+build_time: [535264144, 25169000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/how-many-fingers/how-many-fingers/ViewController.swift": [535264143, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/how-many-fingers/how-many-fingers/AppDelegate.swift": [535263075, 0]

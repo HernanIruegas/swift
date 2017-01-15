@@ -1,0 +1,508 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C19download_WebContent14ViewController"
+provides-member:
+- ["C19download_WebContent14ViewController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "webview"
+depends-top-level:
+- !private "print"
+- "CastingPrecedence"
+- !private "!="
+- !private "NSMutableURLRequest"
+- !private "String"
+- !private "NSString"
+- !private "DispatchQueue"
+- !private "URLRequest"
+- "ViewController"
+- !private "URLSession"
+- "UIViewController"
+- !private "URL"
+- !private "StringLiteralType"
+- "UIWebView"
+depends-member:
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "Encoding"]
+- !private ["Ps9AnyObject", "NSMutableURLRequest"]
+- !private ["Ps9AnyObject", "NSString"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "URLSession"]
+- !private ["Ps9AnyObject", "dataTask"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "resume"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "sync"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "webview"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "Encoding"]
+- !private ["Ps7CVarArg", "NSMutableURLRequest"]
+- !private ["Ps7CVarArg", "NSString"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "URLSession"]
+- !private ["Ps7CVarArg", "dataTask"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "resume"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "sync"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", "webview"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "Encoding"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "Encoding"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableURLRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "NSString"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSession"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTask"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "sync"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "webview"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Encoding"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Encoding"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "Encoding"]
+- !private ["Ps23CustomStringConvertible", "NSMutableURLRequest"]
+- !private ["Ps23CustomStringConvertible", "NSString"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "URLSession"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "dataTask"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "rawValue"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "sync"]
+- !private ["Ps23CustomStringConvertible", "utf8"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "webview"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Data", "deinit"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo14DispatchObject", "sync"]
+- !private ["CSo13DispatchQueue", "deinit"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["CSo13DispatchQueue", "sync"]
+- !private ["VE10FoundationSS8Encoding", "deinit"]
+- !private ["VE10FoundationSS8Encoding", "rawValue"]
+- !private ["VE10FoundationSS8Encoding", "utf8"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "Encoding"]
+- !private ["Ps9Equatable", "NSMutableURLRequest"]
+- !private ["Ps9Equatable", "NSString"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "URLSession"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "dataTask"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "resume"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "sync"]
+- !private ["Ps9Equatable", "utf8"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "webview"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "Encoding"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "Encoding"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "Encoding"]
+- !private ["Ps8Hashable", "NSMutableURLRequest"]
+- !private ["Ps8Hashable", "NSString"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "URLSession"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "dataTask"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "resume"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "sync"]
+- !private ["Ps8Hashable", "utf8"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "webview"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "Encoding"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "Encoding"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "DispatchQueue"]
+- !private ["PSo8NSCoding", "Encoding"]
+- !private ["PSo8NSCoding", "NSMutableURLRequest"]
+- !private ["PSo8NSCoding", "NSString"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "URL"]
+- !private ["PSo8NSCoding", "URLSession"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "webview"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "Encoding"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo26NSExtensionRequestHandling", "DispatchQueue"]
+- !private ["PSo26NSExtensionRequestHandling", "NSMutableURLRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "NSString"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "URL"]
+- !private ["PSo26NSExtensionRequestHandling", "URLSession"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "webview"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "Encoding"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo19NSMutableURLRequest", "deinit"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- !private ["CSo8NSObject", "Encoding"]
+- !private ["CSo8NSObject", "NSMutableURLRequest"]
+- !private ["CSo8NSObject", "NSString"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIWebView"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "URLRequest"]
+- !private ["CSo8NSObject", "URLSession"]
+- !private ["CSo8NSObject", "dataTask"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "resume"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "sync"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "webview"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "Encoding"]
+- !private ["PSo16NSObjectProtocol", "NSMutableURLRequest"]
+- !private ["PSo16NSObjectProtocol", "NSString"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "URLSession"]
+- !private ["PSo16NSObjectProtocol", "dataTask"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "sync"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "webview"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "Encoding"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "Encoding"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["CSo9OS_object", "main"]
+- !private ["CSo9OS_object", "sync"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "utf8"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["SS", "Encoding"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "Encoding"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "Encoding"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIAppearanceContainer", "DispatchQueue"]
+- !private ["PSo21UIAppearanceContainer", "NSMutableURLRequest"]
+- !private ["PSo21UIAppearanceContainer", "NSString"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "URL"]
+- !private ["PSo21UIAppearanceContainer", "URLSession"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "webview"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "DispatchQueue"]
+- !private ["PSo18UIContentContainer", "NSMutableURLRequest"]
+- !private ["PSo18UIContentContainer", "NSString"]
+- !private ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "URL"]
+- !private ["PSo18UIContentContainer", "URLSession"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "webview"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "DispatchQueue"]
+- !private ["PSo18UIFocusEnvironment", "NSMutableURLRequest"]
+- !private ["PSo18UIFocusEnvironment", "NSString"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "URL"]
+- !private ["PSo18UIFocusEnvironment", "URLSession"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "webview"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "DispatchQueue"]
+- !private ["CSo11UIResponder", "NSMutableURLRequest"]
+- !private ["CSo11UIResponder", "NSString"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIWebView"]
+- !private ["CSo11UIResponder", "URL"]
+- !private ["CSo11UIResponder", "URLRequest"]
+- !private ["CSo11UIResponder", "URLSession"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "webview"]
+- !private ["PSo30UIResponderStandardEditActions", "DispatchQueue"]
+- !private ["PSo30UIResponderStandardEditActions", "NSMutableURLRequest"]
+- !private ["PSo30UIResponderStandardEditActions", "NSString"]
+- !private ["PSo30UIResponderStandardEditActions", "String"]
+- !private ["PSo30UIResponderStandardEditActions", "URL"]
+- !private ["PSo30UIResponderStandardEditActions", "URLSession"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "webview"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "DispatchQueue"]
+- !private ["PSo16UIStateRestoring", "NSMutableURLRequest"]
+- !private ["PSo16UIStateRestoring", "NSString"]
+- !private ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "URL"]
+- !private ["PSo16UIStateRestoring", "URLSession"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "webview"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "DispatchQueue"]
+- !private ["PSo18UITraitEnvironment", "NSMutableURLRequest"]
+- !private ["PSo18UITraitEnvironment", "NSString"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "URL"]
+- !private ["PSo18UITraitEnvironment", "URLSession"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "webview"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo16UIViewController", "DispatchQueue"]
+- !private ["CSo16UIViewController", "NSMutableURLRequest"]
+- !private ["CSo16UIViewController", "NSString"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIWebView"]
+- !private ["CSo16UIViewController", "URL"]
+- !private ["CSo16UIViewController", "URLRequest"]
+- !private ["CSo16UIViewController", "URLSession"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "webview"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- ["V10Foundation10URLRequest", "deinit"]
+- !private ["CSo10URLSession", "dataTask"]
+- ["CSo10URLSession", "deinit"]
+- !private ["CSo10URLSession", "shared"]
+- ["CSo18URLSessionDataTask", "deinit"]
+- !private ["CSo18URLSessionDataTask", "resume"]
+- !private ["CSo14URLSessionTask", "resume"]
+- !private ["C19download_WebContent14ViewController", "DispatchQueue"]
+- !private ["C19download_WebContent14ViewController", "NSMutableURLRequest"]
+- !private ["C19download_WebContent14ViewController", "NSString"]
+- !private ["C19download_WebContent14ViewController", "String"]
+- ["C19download_WebContent14ViewController", "UIWebView"]
+- !private ["C19download_WebContent14ViewController", "URL"]
+- !private ["C19download_WebContent14ViewController", "URLRequest"]
+- !private ["C19download_WebContent14ViewController", "URLSession"]
+- ["C19download_WebContent14ViewController", "deinit"]
+- ["C19download_WebContent14ViewController", "didReceiveMemoryWarning"]
+- ["C19download_WebContent14ViewController", "init"]
+- !private ["C19download_WebContent14ViewController", "print"]
+- ["C19download_WebContent14ViewController", "viewDidLoad"]
+- ["C19download_WebContent14ViewController", "webview"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "Encoding"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "Encoding"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Encoding"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "Encoding"]
+- !private ["Ps9_Hashable", "NSMutableURLRequest"]
+- !private ["Ps9_Hashable", "NSString"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "URL"]
+- !private ["Ps9_Hashable", "URLSession"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "dataTask"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "resume"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "sync"]
+- !private ["Ps9_Hashable", "utf8"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", "webview"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Encoding"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- !private "VE10FoundationSS8Encoding"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo19NSMutableURLRequest"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo12NSURLRequest"
+- !private "CSo9OS_object"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "Su"
+- "V10Foundation3URL"
+- "V10Foundation10URLRequest"
+- "CSo10URLSession"
+- "CSo18URLSessionDataTask"
+- !private "CSo14URLSessionTask"
+- "C19download_WebContent14ViewController"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "0ae3ee967ab43c4b0c6feb5b6444ed63"

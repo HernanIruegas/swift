@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "b844edfbbaabcd1b1d15609cb3432184"
+build_time: [534714974, 918310000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/CatYears-Swift/CatYears-Swift/ViewController.swift": [534714974, 0]
+  "/Users/hernaniruegasvillarreal/Documents/CatYears-Swift/CatYears-Swift/AppDelegate.swift": [534714465, 0]

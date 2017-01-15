@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "aa6f009b784d644998cd1aa9c50470a3"
+build_time: [535333197, 737805000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/isItPrime-autoLayout/isItPrime-autoLayout/ViewController.swift": [535333197, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/isItPrime-autoLayout/isItPrime-autoLayout/AppDelegate.swift": [535332725, 0]

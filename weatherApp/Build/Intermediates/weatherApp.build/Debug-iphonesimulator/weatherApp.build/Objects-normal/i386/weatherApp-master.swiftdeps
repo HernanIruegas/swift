@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "f0b0e4811d7a733323655d3ae4adaa1e"
+build_time: [535591842, 322569000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/weatherApp/weatherApp/ViewController.swift": [535591842, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/weatherApp/weatherApp/AppDelegate.swift": [535527743, 0]
