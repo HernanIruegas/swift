@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "68959c35afe518d6023322a784c7250c"
+build_time: [537258619, 165709000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Uber/rider-view/ParseStarterProject/ViewController.swift": [523695572, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Uber/rider-view/ParseStarterProject/RiderViewController.swift": [528548321, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Uber/rider-view/ParseStarterProject/AppDelegate.swift": [524857635, 0]

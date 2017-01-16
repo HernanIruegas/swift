@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "d1c95de905279491582d6a1ea5904a1d"
+build_time: [536898466, 132767000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Downloads/swiping-users/ParseStarterProject/ViewController.swift": [536828482, 0]
+  "/Users/hernaniruegasvillarreal/Downloads/swiping-users/ParseStarterProject/AppDelegate.swift": [524857253, 0]
+  "/Users/hernaniruegasvillarreal/Downloads/swiping-users/ParseStarterProject/SwipingViewController.swift": [536898182, 0]
+  "/Users/hernaniruegasvillarreal/Downloads/swiping-users/ParseStarterProject/UserDetailsViewController.swift": [536828029, 0]

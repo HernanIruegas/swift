@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "41fc694ebc6df56824181935e7ff1a67"
+build_time: [537246149, 492008000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Downloads/10.03/ParseStarterProject/ViewController.swift": [523694451, 0]
+  "/Users/hernaniruegasvillarreal/Downloads/10.03/ParseStarterProject/AppDelegate.swift": [524857525, 0]

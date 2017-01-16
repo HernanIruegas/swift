@@ -1,0 +1,324 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FeedTableViewCell"
+provides-nominal:
+- "C25ParseStarterProject_Swift17FeedTableViewCell"
+provides-member:
+- ["C25ParseStarterProject_Swift17FeedTableViewCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "postedImage"
+- "setSelected"
+- "usernameLabel"
+- "messageLabel"
+depends-top-level:
+- "UILabel"
+- "Bool"
+- "UITableViewCell"
+- "FeedTableViewCell"
+- "UIImageView"
+depends-member:
+- ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "messageLabel"]
+- ["Ps9AnyObject", "postedImage"]
+- ["Ps9AnyObject", "setSelected"]
+- ["Ps9AnyObject", "usernameLabel"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "messageLabel"]
+- ["PSo15CALayerDelegate", "postedImage"]
+- ["PSo15CALayerDelegate", "setSelected"]
+- ["PSo15CALayerDelegate", "usernameLabel"]
+- ["PSo15CALayerDelegate", ""]
+- ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "messageLabel"]
+- ["Ps7CVarArg", "postedImage"]
+- ["Ps7CVarArg", "setSelected"]
+- ["Ps7CVarArg", "usernameLabel"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "messageLabel"]
+- ["Ps28CustomDebugStringConvertible", "postedImage"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- ["Ps28CustomDebugStringConvertible", "usernameLabel"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "messageLabel"]
+- ["Ps23CustomStringConvertible", "postedImage"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- ["Ps23CustomStringConvertible", "usernameLabel"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "messageLabel"]
+- ["Ps9Equatable", "postedImage"]
+- ["Ps9Equatable", "setSelected"]
+- ["Ps9Equatable", "usernameLabel"]
+- ["Ps9Equatable", ""]
+- ["C25ParseStarterProject_Swift17FeedTableViewCell", "Bool"]
+- ["C25ParseStarterProject_Swift17FeedTableViewCell", "UIImageView"]
+- ["C25ParseStarterProject_Swift17FeedTableViewCell", "UILabel"]
+- ["C25ParseStarterProject_Swift17FeedTableViewCell", "awakeFromNib"]
+- ["C25ParseStarterProject_Swift17FeedTableViewCell", "deinit"]
+- ["C25ParseStarterProject_Swift17FeedTableViewCell", "init"]
+- ["C25ParseStarterProject_Swift17FeedTableViewCell", "messageLabel"]
+- ["C25ParseStarterProject_Swift17FeedTableViewCell", "postedImage"]
+- ["C25ParseStarterProject_Swift17FeedTableViewCell", "setSelected"]
+- ["C25ParseStarterProject_Swift17FeedTableViewCell", "usernameLabel"]
+- ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "messageLabel"]
+- ["Ps8Hashable", "postedImage"]
+- ["Ps8Hashable", "setSelected"]
+- ["Ps8Hashable", "usernameLabel"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "messageLabel"]
+- ["PSo8NSCoding", "postedImage"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", "usernameLabel"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "messageLabel"]
+- ["CSo8NSObject", "postedImage"]
+- ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "usernameLabel"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "messageLabel"]
+- ["PSo16NSObjectProtocol", "postedImage"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", "usernameLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "messageLabel"]
+- ["PSo29UIAccessibilityIdentification", "postedImage"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", "usernameLabel"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "messageLabel"]
+- ["PSo12UIAppearance", "postedImage"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", "usernameLabel"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "messageLabel"]
+- ["PSo21UIAppearanceContainer", "postedImage"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", "usernameLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "messageLabel"]
+- ["PSo17UICoordinateSpace", "postedImage"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", "usernameLabel"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "messageLabel"]
+- ["PSo13UIDynamicItem", "postedImage"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", "usernameLabel"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "messageLabel"]
+- ["PSo18UIFocusEnvironment", "postedImage"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", "usernameLabel"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "messageLabel"]
+- ["PSo11UIFocusItem", "postedImage"]
+- ["PSo11UIFocusItem", "setSelected"]
+- ["PSo11UIFocusItem", "usernameLabel"]
+- ["PSo11UIFocusItem", ""]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "messageLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "postedImage"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", "usernameLabel"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "messageLabel"]
+- ["CSo11UIResponder", "postedImage"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "usernameLabel"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "messageLabel"]
+- ["PSo30UIResponderStandardEditActions", "postedImage"]
+- ["PSo30UIResponderStandardEditActions", "setSelected"]
+- ["PSo30UIResponderStandardEditActions", "usernameLabel"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "deinit"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "messageLabel"]
+- ["CSo15UITableViewCell", "postedImage"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "usernameLabel"]
+- ["CSo15UITableViewCell", ""]
+- ["OSC20UITableViewCellStyle", "deinit"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "messageLabel"]
+- ["PSo18UITraitEnvironment", "postedImage"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", "usernameLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "messageLabel"]
+- ["CSo6UIView", "postedImage"]
+- ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "usernameLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "messageLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "postedImage"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "setSelected"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "usernameLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "messageLabel"]
+- ["Ps9_Hashable", "postedImage"]
+- ["Ps9_Hashable", "setSelected"]
+- ["Ps9_Hashable", "usernameLabel"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "C25ParseStarterProject_Swift17FeedTableViewCell"
+- "Ps8Hashable"
+- "SQ"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "OSC20UITableViewCellStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFURL.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFTask.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFDefines.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Headers/Bolts.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Bolts.framework/Modules/module.modulemap"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFPurchase.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFProduct.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFPush+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFPush+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFPush.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFInstallation.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFUser+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFUser+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFSession.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFRole.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFRelation.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFQuery+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFQuery+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFQuery.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFObject+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFObject+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFFile+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFFile+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFFile.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFConfig+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFConfig.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFCloud+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFCloud+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFCloud.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFAnonymousUtils+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFObject.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFUser.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFACL.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/PFConstants.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/ParseClientConfiguration.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Headers/Parse.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/viewing-users-feed/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "247a95180508d7a2fb016010a173851e"

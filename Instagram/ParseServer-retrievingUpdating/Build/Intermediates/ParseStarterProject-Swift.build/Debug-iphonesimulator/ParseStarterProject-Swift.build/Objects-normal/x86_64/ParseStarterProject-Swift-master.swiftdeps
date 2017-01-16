@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "5ceb10fecb58142ad9f9fabc09b1b2cc"
+build_time: [536731954, 569256000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/ParseServer-retrievingUpdating/ParseStarterProject/ViewController.swift": [536372205, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/ParseServer-retrievingUpdating/ParseStarterProject/AppDelegate.swift": [530206147, 0]

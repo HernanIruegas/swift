@@ -1,0 +1,736 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C25ParseStarterProject_Swift14ViewController"
+provides-member:
+- ["C25ParseStarterProject_Swift14ViewController", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "viewDidAppear"
+- "usernameTextField"
+- "signupOrLogin"
+- "errorLabel"
+- "viewDidLoad"
+depends-top-level:
+- "UIViewController"
+- !private "!="
+- !private "PFUser"
+- !private "String"
+- "UITextField"
+- !private "NSError"
+- !private "print"
+- !private "StringLiteralType"
+- "Bool"
+- "UILabel"
+- "AnyObject"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "ViewController"
+depends-member:
+- !private ["Vs11AnyHashable", "deinit"]
+- !private ["Ps9AnyObject", "PFUser"]
+- !private ["Ps9AnyObject", "current"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "errorLabel"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "logInWithUsername"]
+- !private ["Ps9AnyObject", "password"]
+- !private ["Ps9AnyObject", "performSegue"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "signUpInBackground"]
+- ["Ps9AnyObject", "signupOrLogin"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "userInfo"]
+- !private ["Ps9AnyObject", "username"]
+- ["Ps9AnyObject", "usernameTextField"]
+- ["Ps9AnyObject", "viewDidAppear"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "PFUser"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "current"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- ["Ps7CVarArg", "errorLabel"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "logInWithUsername"]
+- !private ["Ps7CVarArg", "password"]
+- !private ["Ps7CVarArg", "performSegue"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "signUpInBackground"]
+- ["Ps7CVarArg", "signupOrLogin"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "userInfo"]
+- !private ["Ps7CVarArg", "username"]
+- ["Ps7CVarArg", "usernameTextField"]
+- ["Ps7CVarArg", "viewDidAppear"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "PFUser"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "current"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "errorLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "logInWithUsername"]
+- !private ["Ps28CustomDebugStringConvertible", "password"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegue"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "signUpInBackground"]
+- ["Ps28CustomDebugStringConvertible", "signupOrLogin"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "userInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "username"]
+- ["Ps28CustomDebugStringConvertible", "usernameTextField"]
+- ["Ps28CustomDebugStringConvertible", "viewDidAppear"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "PFUser"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "current"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "errorLabel"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "logInWithUsername"]
+- !private ["Ps23CustomStringConvertible", "password"]
+- !private ["Ps23CustomStringConvertible", "performSegue"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "signUpInBackground"]
+- ["Ps23CustomStringConvertible", "signupOrLogin"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
+- !private ["Ps23CustomStringConvertible", "username"]
+- ["Ps23CustomStringConvertible", "usernameTextField"]
+- ["Ps23CustomStringConvertible", "viewDidAppear"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "IndexDistance"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "_Element"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs15DictionaryIndex", "deinit"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "PFUser"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "current"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "errorLabel"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "logInWithUsername"]
+- !private ["Ps9Equatable", "password"]
+- !private ["Ps9Equatable", "performSegue"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "signUpInBackground"]
+- ["Ps9Equatable", "signupOrLogin"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "userInfo"]
+- !private ["Ps9Equatable", "username"]
+- ["Ps9Equatable", "usernameTextField"]
+- ["Ps9Equatable", "viewDidAppear"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "userInfo"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "IndexDistance"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "_Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "PFUser"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "current"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "errorLabel"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "logInWithUsername"]
+- !private ["Ps8Hashable", "password"]
+- !private ["Ps8Hashable", "performSegue"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "signUpInBackground"]
+- ["Ps8Hashable", "signupOrLogin"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "userInfo"]
+- !private ["Ps8Hashable", "username"]
+- ["Ps8Hashable", "usernameTextField"]
+- ["Ps8Hashable", "viewDidAppear"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "PFUser"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "errorLabel"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "performSegue"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "signupOrLogin"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "userInfo"]
+- ["PSo8NSCoding", "usernameTextField"]
+- ["PSo8NSCoding", "viewDidAppear"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "userInfo"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["CSo7NSError", "userInfo"]
+- !private ["PSo26NSExtensionRequestHandling", "PFUser"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "errorLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "signupOrLogin"]
+- ["PSo26NSExtensionRequestHandling", "usernameTextField"]
+- ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "PFUser"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "current"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "errorLabel"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "logInWithUsername"]
+- !private ["CSo8NSObject", "password"]
+- !private ["CSo8NSObject", "performSegue"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "signUpInBackground"]
+- ["CSo8NSObject", "signupOrLogin"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "userInfo"]
+- !private ["CSo8NSObject", "username"]
+- ["CSo8NSObject", "usernameTextField"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "PFUser"]
+- !private ["PSo16NSObjectProtocol", "current"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "errorLabel"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "logInWithUsername"]
+- !private ["PSo16NSObjectProtocol", "password"]
+- !private ["PSo16NSObjectProtocol", "performSegue"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "signUpInBackground"]
+- ["PSo16NSObjectProtocol", "signupOrLogin"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "userInfo"]
+- !private ["PSo16NSObjectProtocol", "username"]
+- ["PSo16NSObjectProtocol", "usernameTextField"]
+- ["PSo16NSObjectProtocol", "viewDidAppear"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "userInfo"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["CSo8PFObject", "current"]
+- !private ["CSo8PFObject", "init"]
+- !private ["CSo8PFObject", "logInWithUsername"]
+- !private ["CSo8PFObject", "password"]
+- !private ["CSo8PFObject", "signUpInBackground"]
+- !private ["CSo8PFObject", "username"]
+- !private ["PSo13PFSubclassing", "current"]
+- !private ["PSo13PFSubclassing", "init"]
+- !private ["PSo13PFSubclassing", "logInWithUsername"]
+- !private ["PSo13PFSubclassing", "password"]
+- !private ["PSo13PFSubclassing", "signUpInBackground"]
+- !private ["PSo13PFSubclassing", "username"]
+- !private ["CSo6PFUser", "current"]
+- !private ["CSo6PFUser", "deinit"]
+- !private ["CSo6PFUser", "init"]
+- !private ["CSo6PFUser", "logInWithUsername"]
+- !private ["CSo6PFUser", "password"]
+- !private ["CSo6PFUser", "signUpInBackground"]
+- !private ["CSo6PFUser", "username"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "PFUser"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "errorLabel"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "performSegue"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "signupOrLogin"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "usernameTextField"]
+- ["PSo21UIAppearanceContainer", "viewDidAppear"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "PFUser"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "errorLabel"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "performSegue"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "signupOrLogin"]
+- ["PSo18UIContentContainer", "usernameTextField"]
+- ["PSo18UIContentContainer", "viewDidAppear"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "PFUser"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "errorLabel"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "performSegue"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "signupOrLogin"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "usernameTextField"]
+- ["PSo18UIFocusEnvironment", "viewDidAppear"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "NSError"]
+- !private ["CSo11UIResponder", "PFUser"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "errorLabel"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "performSegue"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "signupOrLogin"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "usernameTextField"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "PFUser"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "errorLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "performSegue"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- ["PSo30UIResponderStandardEditActions", "signupOrLogin"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "usernameTextField"]
+- ["PSo30UIResponderStandardEditActions", "viewDidAppear"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "PFUser"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "errorLabel"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "performSegue"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "signupOrLogin"]
+- ["PSo16UIStateRestoring", "usernameTextField"]
+- ["PSo16UIStateRestoring", "viewDidAppear"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "PFUser"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "errorLabel"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "performSegue"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "signupOrLogin"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "usernameTextField"]
+- ["PSo18UITraitEnvironment", "viewDidAppear"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "NSError"]
+- !private ["CSo16UIViewController", "PFUser"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "errorLabel"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "performSegue"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "signupOrLogin"]
+- ["CSo16UIViewController", "usernameTextField"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["C25ParseStarterProject_Swift14ViewController", "AnyObject"]
+- ["C25ParseStarterProject_Swift14ViewController", "Bool"]
+- !private ["C25ParseStarterProject_Swift14ViewController", "NSError"]
+- !private ["C25ParseStarterProject_Swift14ViewController", "PFUser"]
+- !private ["C25ParseStarterProject_Swift14ViewController", "String"]
+- ["C25ParseStarterProject_Swift14ViewController", "UILabel"]
+- ["C25ParseStarterProject_Swift14ViewController", "UITextField"]
+- ["C25ParseStarterProject_Swift14ViewController", "deinit"]
+- ["C25ParseStarterProject_Swift14ViewController", "didReceiveMemoryWarning"]
+- ["C25ParseStarterProject_Swift14ViewController", "errorLabel"]
+- ["C25ParseStarterProject_Swift14ViewController", "init"]
+- !private ["C25ParseStarterProject_Swift14ViewController", "performSegue"]
+- !private ["C25ParseStarterProject_Swift14ViewController", "print"]
+- ["C25ParseStarterProject_Swift14ViewController", "signupOrLogin"]
+- ["C25ParseStarterProject_Swift14ViewController", "usernameTextField"]
+- ["C25ParseStarterProject_Swift14ViewController", "viewDidAppear"]
+- ["C25ParseStarterProject_Swift14ViewController", "viewDidLoad"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "PFUser"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "current"]
+- !private ["Ps9_Hashable", "deinit"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- ["Ps9_Hashable", "errorLabel"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "logInWithUsername"]
+- !private ["Ps9_Hashable", "password"]
+- !private ["Ps9_Hashable", "performSegue"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "signUpInBackground"]
+- ["Ps9_Hashable", "signupOrLogin"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "userInfo"]
+- !private ["Ps9_Hashable", "username"]
+- ["Ps9_Hashable", "usernameTextField"]
+- ["Ps9_Hashable", "viewDidAppear"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+depends-nominal:
+- !private "Vs11AnyHashable"
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs11ClosedRange"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Vs15DictionaryIndex"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "CSo8PFObject"
+- !private "PSo13PFSubclassing"
+- !private "CSo6PFUser"
+- !private "Vs5Range"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C25ParseStarterProject_Swift14ViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFURL.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFTask.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFDefines.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Headers/Bolts.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Bolts.framework/Modules/module.modulemap"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFPurchase.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFProduct.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFPush+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFPush+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFPush.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFInstallation.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFUser+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFUser+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFSession.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFRole.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFRelation.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFQuery+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFQuery+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFQuery.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFObject+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFObject+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFFile+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFFile+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFFile.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFConfig+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFConfig.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFCloud+Synchronous.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFCloud+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFCloud.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFAnonymousUtils+Deprecated.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFObject.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFUser.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFACL.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/PFConstants.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/ParseClientConfiguration.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Headers/Parse.h"
+- "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/sending-image/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "8ec91251f4ea4102edf9a2a95e445dd9"

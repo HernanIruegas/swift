@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "db24b7d920a0fe40b6efaf8de07f943e"
+build_time: [537142319, 806665000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Downloads/9.07/Flappy Bird/GameScene.swift": [521165878, 0]
+  "/Users/hernaniruegasvillarreal/Downloads/9.07/Flappy Bird/GameViewController.swift": [523694339, 0]
+  "/Users/hernaniruegasvillarreal/Downloads/9.07/Flappy Bird/AppDelegate.swift": [521013228, 0]

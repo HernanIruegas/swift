@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "e0b8881a67134bdd1a042b1dbab1f75a"
+build_time: [536732943, 750871000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/login-signUp/ParseStarterProject/ViewController.swift": [536529444, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/login-signUp/ParseStarterProject/AppDelegate.swift": [536529447, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/login-signUp/ParseStarterProject/newViewController.swift": [521181106, 0]
