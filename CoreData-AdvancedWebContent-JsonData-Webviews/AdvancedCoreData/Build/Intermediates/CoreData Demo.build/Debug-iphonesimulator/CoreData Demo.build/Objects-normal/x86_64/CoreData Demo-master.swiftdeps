@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "2b4f97ec640bf802c2c6795e3d9c2d5d"
+build_time: [536095649, 356270000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Downloads/6.02/CoreData Demo/CoreData Demo/ViewController.swift": [523510440, 0]
+  "/Users/hernaniruegasvillarreal/Downloads/6.02/CoreData Demo/CoreData Demo/AppDelegate.swift": [523510440, 0]

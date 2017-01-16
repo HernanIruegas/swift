@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "34824962c957cbc268352cdd3566e008"
+build_time: [536351048, 207995000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Downloads/6.04/Whats The Weather (API Version) /API Demo/ViewController.swift": [529158636, 0]
+  "/Users/hernaniruegasvillarreal/Downloads/6.04/Whats The Weather (API Version) /API Demo/AppDelegate.swift": [519820988, 0]

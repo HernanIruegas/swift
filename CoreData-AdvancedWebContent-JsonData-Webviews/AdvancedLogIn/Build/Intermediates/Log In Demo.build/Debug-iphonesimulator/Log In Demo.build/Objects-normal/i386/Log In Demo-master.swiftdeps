@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "c9bb57e6fc4f080c5704ead4e5f47a34"
+build_time: [536109329, 621514000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/AdvancedLogIn/Log In Demo/ViewController.swift": [536098656, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/AdvancedLogIn/Log In Demo/AppDelegate.swift": [523510512, 0]

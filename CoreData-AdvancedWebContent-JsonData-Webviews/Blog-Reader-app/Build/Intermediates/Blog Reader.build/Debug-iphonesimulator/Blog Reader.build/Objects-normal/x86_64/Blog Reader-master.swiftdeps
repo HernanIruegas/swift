@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "fcdc301e94911c5cad7d0c03fb513832"
+build_time: [536351971, 234727000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Blog-Reader-app/Blog Reader/AppDelegate.swift": [523510986, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Blog-Reader-app/Blog Reader/MasterViewController.swift": [527439760, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Blog-Reader-app/Blog Reader/DetailViewController.swift": [521008686, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Blog-Reader-app/Build/Intermediates/Blog Reader.build/Debug-iphonesimulator/Blog Reader.build/DerivedSources/CoreDataGenerated/Blog_Reader/Event+CoreDataClass.swift": [536351971, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Blog-Reader-app/Build/Intermediates/Blog Reader.build/Debug-iphonesimulator/Blog Reader.build/DerivedSources/CoreDataGenerated/Blog_Reader/Event+CoreDataProperties.swift": [536351971, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Blog-Reader-app/Build/Intermediates/Blog Reader.build/Debug-iphonesimulator/Blog Reader.build/DerivedSources/CoreDataGenerated/Blog_Reader/Blog_Reader+CoreDataModel.swift": [536351971, 0]
