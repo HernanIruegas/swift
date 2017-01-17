@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "16dc0ea3f9e5d33a6ed7bbc44ec6d8a5"
+build_time: [536732320, 699648000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/Photo Demo/Photo Demo/ViewController.swift": [536373410, 0]
+  "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/Photo Demo/Photo Demo/AppDelegate.swift": [530310633, 0]
