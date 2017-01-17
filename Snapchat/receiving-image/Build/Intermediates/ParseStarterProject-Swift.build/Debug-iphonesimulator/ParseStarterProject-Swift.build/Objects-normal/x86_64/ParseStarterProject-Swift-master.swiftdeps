@@ -1,7 +1,7 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
-options: "f2648e1ae73bc3125492c6a33d315d91"
-build_time: [537734279, 655512000]
+options: "8e233969c6a45e66201d6683ee203d4f"
+build_time: [537915482, 591080000]
 inputs:
-  "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/receiving-image/ParseStarterProject/ViewController.swift": [528548689, 0]
-  "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/receiving-image/ParseStarterProject/UserTableViewController.swift": [528548694, 0]
-  "/Users/hernaniruegasvillarreal/Documents/Swift/Snapchat/receiving-image/ParseStarterProject/AppDelegate.swift": [524858114, 0]
+  "/Users/hernaniruegasvillarreal/Documents/github/swift/Snapchat/receiving-image/ParseStarterProject/ViewController.swift": [528548689, 0]
+  "/Users/hernaniruegasvillarreal/Documents/github/swift/Snapchat/receiving-image/ParseStarterProject/UserTableViewController.swift": [528548694, 0]
+  "/Users/hernaniruegasvillarreal/Documents/github/swift/Snapchat/receiving-image/ParseStarterProject/AppDelegate.swift": [524858114, 0]

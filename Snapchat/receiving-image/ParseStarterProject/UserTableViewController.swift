@@ -17,7 +17,9 @@ class UserTableViewController: UITableViewController, UINavigationControllerDele
     
     func checkForMessages() {
         
+        /***********************/
         
+        //we try to obtain all images that were sent to the logged in user
         
         let query = PFQuery(className: "Image")
         
@@ -28,7 +30,9 @@ class UserTableViewController: UITableViewController, UINavigationControllerDele
             let images = try query.findObjects()
             
             if images.count > 0 {
-                    
+                
+                //images[0] = so our code does not attempt to display more than one image at once
+                
                     var senderUsername = "Unknown User"
                     
                     if let username = images[0]["senderUsername"] as? String {
@@ -36,6 +40,8 @@ class UserTableViewController: UITableViewController, UINavigationControllerDele
                         senderUsername = username
                         
                     }
+                
+                //images is an PFObject, so we extract the image data, in order to convert it to an actual photo
                     
                     if let pfFile = images[0]["photo"] as? PFFile {
                         
@@ -43,15 +49,21 @@ class UserTableViewController: UITableViewController, UINavigationControllerDele
                             
                             if let imageData = data {
                                 
-                                images[0].deleteInBackground()
+                                images[0].deleteInBackground()//so the same message with the same photo don't appear again
                                 
-                                self.timer.invalidate()
+                                self.timer.invalidate()//so that we don't get the same image more than once, so there aren't repeated messages
+                                
                                 
                                 if let imageToDisplay = UIImage(data: imageData) {
+                                    
+                                    //we display an alert containng the image
                                     
                                     let alertController = UIAlertController(title: "You have a message", message: "Message from " + senderUsername, preferredStyle: .alert)
                                     
                                     alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
+                                        
+                                        //we cretae our own view, which sits at the back of displayedImageView, but at the front of the table
+                                        //serves for the blurred effect
                                         
                                         let backgroundImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
                                         
@@ -63,16 +75,19 @@ class UserTableViewController: UITableViewController, UINavigationControllerDele
                                         
                                         self.view.addSubview(backgroundImageView)
                                         
+                                        //we create an image programatically
                                         
                                         let displayedImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
                                         
                                         displayedImageView.image = imageToDisplay
                                         
-                                        displayedImageView.tag = 10
+                                        displayedImageView.tag = 10//identifies the subview
                                         
                                         displayedImageView.contentMode = UIViewContentMode.scaleAspectFit
                                         
                                         self.view.addSubview(displayedImageView)
+                                        
+                                        //after 5 seconds of displaying the image, we restart the timer, and then remove the image from the view
                                         
                                         _ = Timer.scheduledTimer(withTimeInterval: 5, repeats: false, block: { (timer) in
                                             
@@ -82,33 +97,21 @@ class UserTableViewController: UITableViewController, UINavigationControllerDele
                                                 
                                                 if subview.tag == 10 {
                                                     
-                                                    subview.removeFromSuperview()
+                                                    subview.removeFromSuperview()//remove from the screen itself
                                                     
                                                 }
                                                 
                                             }
                                             
                                         })
-                                        
-                                        
                                     }))
                                     
                                     self.present(alertController, animated: true, completion: nil)
                                     
                                 }
-                                
-                                
                             }
-                            
-                            
                         })
-                        
-                    
-                    
-                    
-                    
                 }
-                
             }
             
         } catch {
@@ -116,7 +119,6 @@ class UserTableViewController: UITableViewController, UINavigationControllerDele
             print("Could not get images")
             
         }
-        
     }
     
     var timer = Timer()
@@ -252,21 +254,5 @@ class UserTableViewController: UITableViewController, UINavigationControllerDele
         }
         
         self.dismiss(animated: true, completion: nil)
-        
-        
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
 }
