@@ -14,7 +14,6 @@
 		4D0060B51E08FC3F008636D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0060B31E08FC3F008636D1 /* LaunchScreen.storyboard */; };
 		4D0060C01E08FC40008636D1 /* weatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0060BF1E08FC40008636D1 /* weatherAppTests.swift */; };
 		4D0060CB1E08FC40008636D1 /* weatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0060CA1E08FC40008636D1 /* weatherAppUITests.swift */; };
-		4D0060DD1E09C1B6008636D1 /* cloudWeather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0060DC1E09C1B6008636D1 /* cloudWeather.jpg */; };
 		4D00615D1E0C987B008636D1 /* snowPineWeather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D00615C1E0C987B008636D1 /* snowPineWeather.jpg */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +48,6 @@
 		4D0060C61E08FC40008636D1 /* weatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0060CA1E08FC40008636D1 /* weatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherAppUITests.swift; sourceTree = "<group>"; };
 		4D0060CC1E08FC40008636D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D0060DC1E09C1B6008636D1 /* cloudWeather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cloudWeather.jpg; path = ../../../../Downloads/cloudWeather.jpg; sourceTree = "<group>"; };
 		4D00615C1E0C987B008636D1 /* snowPineWeather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snowPineWeather.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +103,6 @@
 				4D0060AC1E08FC3F008636D1 /* ViewController.swift */,
 				4D0060AE1E08FC3F008636D1 /* Main.storyboard */,
 				4D0060B11E08FC3F008636D1 /* Assets.xcassets */,
-				4D0060DC1E09C1B6008636D1 /* cloudWeather.jpg */,
 				4D00615C1E0C987B008636D1 /* snowPineWeather.jpg */,
 				4D0060B31E08FC3F008636D1 /* LaunchScreen.storyboard */,
 				4D0060B61E08FC3F008636D1 /* Info.plist */,
@@ -238,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0060DD1E09C1B6008636D1 /* cloudWeather.jpg in Resources */,
 				4D0060B51E08FC3F008636D1 /* LaunchScreen.storyboard in Resources */,
 				4D0060B21E08FC3F008636D1 /* Assets.xcassets in Resources */,
 				4D00615D1E0C987B008636D1 /* snowPineWeather.jpg in Resources */,

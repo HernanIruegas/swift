@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C19controlling_keyword14ViewController", ""]
 provides-dynamic-lookup:
-- "touchesBegan"
-- "textFieldShouldReturn"
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "textFieldShouldReturn"
+- "touchesBegan"
 depends-top-level:
-- !private "BooleanLiteralType"
+- "Bool"
+- "UIEvent"
 - "UIViewController"
+- "UITextFieldDelegate"
 - "Set"
 - "UITouch"
-- "UITextFieldDelegate"
 - "UITextField"
-- "UIEvent"
+- !private "BooleanLiteralType"
 - "ViewController"
-- "Bool"
 depends-member:
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "endEditing"]

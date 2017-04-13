@@ -6,29 +6,29 @@ provides-nominal:
 provides-member:
 - ["C10timesTable14ViewController", ""]
 provides-dynamic-lookup:
-- "table"
-- "didReceiveMemoryWarning"
 - "slider"
+- "didReceiveMemoryWarning"
+- "sliderChanged"
 - "viewDidLoad"
 - "tableView"
 - "tableView"
-- "sliderChanged"
+- "table"
 depends-top-level:
-- "ViewController"
-- "AssignmentPrecedence"
-- !private "String"
-- "UITableView"
-- "UITableViewCell"
-- "Int"
-- !private "*"
 - "UISlider"
+- "Int"
+- !private "String"
+- "AssignmentPrecedence"
+- "UITableViewCell"
+- "UITableViewDataSource"
+- "UITableViewDelegate"
 - "UIViewController"
+- !private "*"
+- "UITableView"
+- "ViewController"
 - !private "+"
 - !private "UITableViewCellStyle"
 - "IndexPath"
-- "UITableViewDelegate"
 - !private "StringLiteralType"
-- "UITableViewDataSource"
 depends-member:
 - !private ["Ps9AnyObject", "Int"]
 - !private ["Ps9AnyObject", "String"]

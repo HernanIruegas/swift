@@ -6,24 +6,24 @@ provides-nominal:
 provides-member:
 - ["C19download_WebContent14ViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "webview"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
-- !private "NSMutableURLRequest"
-- "ViewController"
-- !private "DispatchQueue"
 - "CastingPrecedence"
-- !private "URLRequest"
-- !private "URLSession"
-- "UIWebView"
-- !private "print"
-- !private "URL"
-- !private "String"
-- !private "!="
-- !private "NSString"
 - "UIViewController"
+- !private "String"
+- !private "print"
+- !private "DispatchQueue"
+- "UIWebView"
+- !private "URL"
+- !private "URLSession"
+- !private "NSString"
+- !private "!="
+- "ViewController"
 - !private "StringLiteralType"
+- !private "URLRequest"
+- !private "NSMutableURLRequest"
 depends-member:
 - !private ["Ps9AnyObject", "DispatchQueue"]
 - !private ["Ps9AnyObject", "Encoding"]

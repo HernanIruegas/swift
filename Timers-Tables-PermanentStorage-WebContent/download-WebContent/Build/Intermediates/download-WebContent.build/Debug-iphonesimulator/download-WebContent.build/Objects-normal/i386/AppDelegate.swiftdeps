@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C19download_WebContent11AppDelegate", ""]
 provides-dynamic-lookup:
-- "application"
 - "applicationWillEnterForeground"
-- "window"
 - "applicationWillTerminate"
+- "application"
 - "applicationDidBecomeActive"
 - "applicationWillResignActive"
+- "window"
 - "applicationDidEnterBackground"
 depends-top-level:
 - "Bool"
 - "UIWindow"
-- "UIApplication"
-- "UIResponder"
-- !private "BooleanLiteralType"
 - "UIApplicationDelegate"
+- !private "BooleanLiteralType"
 - "UIApplicationLaunchOptionsKey"
 - "AppDelegate"
+- "UIResponder"
+- "UIApplication"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]

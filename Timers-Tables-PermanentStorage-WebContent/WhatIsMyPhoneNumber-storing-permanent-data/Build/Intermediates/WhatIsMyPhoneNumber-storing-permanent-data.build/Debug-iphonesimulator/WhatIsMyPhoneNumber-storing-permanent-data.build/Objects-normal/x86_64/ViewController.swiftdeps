@@ -12,14 +12,14 @@ provides-dynamic-lookup:
 - "button"
 - "didReceiveMemoryWarning"
 depends-top-level:
-- "UILabel"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
 - "ViewController"
-- !private "StringLiteralType"
+- "UILabel"
 - !private "UserDefaults"
 - !private "String"
 - "UIViewController"
-- "AssignmentPrecedence"
-- "CastingPrecedence"
+- !private "StringLiteralType"
 - "UITextField"
 depends-member:
 - !private ["Ps9AnyObject", "UserDefaults"]

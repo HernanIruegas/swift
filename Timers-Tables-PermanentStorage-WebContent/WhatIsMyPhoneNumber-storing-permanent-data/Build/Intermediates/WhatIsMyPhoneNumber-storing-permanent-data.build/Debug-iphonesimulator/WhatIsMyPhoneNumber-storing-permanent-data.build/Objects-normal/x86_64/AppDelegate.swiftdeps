@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C42WhatIsMyPhoneNumber_storing_permanent_data11AppDelegate", ""]
 provides-dynamic-lookup:
-- "application"
+- "applicationDidEnterBackground"
+- "applicationWillResignActive"
 - "applicationWillTerminate"
 - "window"
 - "applicationDidBecomeActive"
-- "applicationWillResignActive"
+- "application"
 - "applicationWillEnterForeground"
-- "applicationDidEnterBackground"
 depends-top-level:
-- "Bool"
-- !private "BooleanLiteralType"
-- "UIApplicationDelegate"
-- "UIWindow"
 - "AppDelegate"
 - "UIApplicationLaunchOptionsKey"
-- "UIResponder"
 - "UIApplication"
+- "UIResponder"
+- "UIApplicationDelegate"
+- "UIWindow"
+- !private "BooleanLiteralType"
+- "Bool"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]

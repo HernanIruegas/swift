@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			npf6aWrhxsoN8dyH6/WzqDDzeLY=
+			+rsCcuKsPXu7Zijn+r3MQxYRMNw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,7 +26,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4QbmstBKKjoa/FGFFSF6/gDFI/E=
+			USx1fJPMHyktrV4q5iiIz0pcNag=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KpEg/6QR2rEjkiffs+D/QYScgi8=
+			PUj5PvKzVTylGim1nJqXOUe5RUk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,7 +53,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sRY+ygvVowRsyUckqPQYsQ11Mec=
+			euCjZrbKOBESjwxjMDaeP8/Cipg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -100,15 +100,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5QLt1e4CT6Pzxn9qtpP64NTLKgc=
+		4Rh6oF8U+WLL/T5qeAs2CjFmj/c=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
-		</data>
-		<key>cloudWeather.jpg</key>
-		<data>
-		C2Kma8yq4wxlsnCmIeNlQ1+avBs=
 		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
@@ -129,11 +125,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			npf6aWrhxsoN8dyH6/WzqDDzeLY=
+			+rsCcuKsPXu7Zijn+r3MQxYRMNw=
 			</data>
 			<key>hash2</key>
 			<data>
-			EQVQtZHAEoffq5VY5nu9Q3F+mL8+iMdzvdRUGWCTN8o=
+			dcICPvM16bavGlxmzPDnKFQZ3lfbsG8Reajza+zAyos=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -155,11 +151,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4QbmstBKKjoa/FGFFSF6/gDFI/E=
+			USx1fJPMHyktrV4q5iiIz0pcNag=
 			</data>
 			<key>hash2</key>
 			<data>
-			MAIZ09uwEMXE0QUX2CC2cq6irRubNPFoNBK8T9seotE=
+			PwWdaVozZZ0RZ+BXGw+9SgQE7jiCrZNk2sG+FMbjutQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -168,11 +164,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KpEg/6QR2rEjkiffs+D/QYScgi8=
+			PUj5PvKzVTylGim1nJqXOUe5RUk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZilQxivcM05NHAN7CLxjkPWDbfGedTpWYLtUNmqKl9k=
+			Lh9YXc7ircMWPLCtY72s3dtSE396GMU7g9TKz3dhzbY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -194,11 +190,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sRY+ygvVowRsyUckqPQYsQ11Mec=
+			euCjZrbKOBESjwxjMDaeP8/Cipg=
 			</data>
 			<key>hash2</key>
 			<data>
-			teeyqYgBk0kibPeP0+1+VrwOVESwuZoIUi7Cungsfuw=
+			EOvimxV2VlO2mEFH95khZxXIxE3WTNM1hh8++eFC9fY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -311,17 +307,6 @@
 			<key>hash2</key>
 			<data>
 			lUteltKQJ+9IXUbpKes+YEdQBkTn17je2h8faRgp3EE=
-			</data>
-		</dict>
-		<key>cloudWeather.jpg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			C2Kma8yq4wxlsnCmIeNlQ1+avBs=
-			</data>
-			<key>hash2</key>
-			<data>
-			LE/0gFmY2wLcZ4TjpPGkI/0jmMSuNNa0Mxhxcil/dmg=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

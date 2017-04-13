@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "d7bc4a7e86e32e0bc21eae1692fe3d4b"
+build_time: [545340526, 937688000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/github/swift/Timers-Tables-PermanentStorage-WebContent/WhatIsMyPhoneNumber-storing-permanent-data/WhatIsMyPhoneNumber-storing-permanent-data/ViewController.swift": [535449038, 0]
+  "/Users/hernaniruegasvillarreal/Documents/github/swift/Timers-Tables-PermanentStorage-WebContent/WhatIsMyPhoneNumber-storing-permanent-data/WhatIsMyPhoneNumber-storing-permanent-data/AppDelegate.swift": [535432082, 0]

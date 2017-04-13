@@ -6,24 +6,24 @@ provides-nominal:
 provides-member:
 - ["C9tableView14ViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
+- "tableView"
+- "tableView"
 - "viewDidLoad"
-- "tableView"
-- "tableView"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "String"
-- "UITableViewDelegate"
-- !private "+"
-- "UIViewController"
-- "UITableViewCell"
+- !private "UITableViewCellStyle"
 - "AssignmentPrecedence"
-- "UITableViewDataSource"
-- !private "StringLiteralType"
+- "UITableView"
+- "Int"
+- !private "+"
 - "ViewController"
 - "IndexPath"
-- "Int"
-- "UITableView"
-- !private "UITableViewCellStyle"
+- !private "String"
+- "UITableViewDelegate"
+- "UIViewController"
+- "UITableViewCell"
+- "UITableViewDataSource"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Stride"]
 - !private ["Ps16AbsoluteValuable", "_DisallowMixedSignArithmetic"]

@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C9tableView11AppDelegate", ""]
 provides-dynamic-lookup:
+- "applicationWillResignActive"
+- "applicationDidEnterBackground"
+- "applicationWillTerminate"
 - "application"
+- "applicationDidBecomeActive"
 - "applicationWillEnterForeground"
 - "window"
-- "applicationDidBecomeActive"
-- "applicationWillResignActive"
-- "applicationWillTerminate"
-- "applicationDidEnterBackground"
 depends-top-level:
-- !private "BooleanLiteralType"
-- "UIResponder"
-- "Bool"
-- "UIApplicationDelegate"
-- "UIWindow"
-- "AppDelegate"
 - "UIApplicationLaunchOptionsKey"
+- "AppDelegate"
 - "UIApplication"
+- "UIWindow"
+- "Bool"
+- !private "BooleanLiteralType"
+- "UIApplicationDelegate"
+- "UIResponder"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]

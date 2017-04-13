@@ -6,28 +6,28 @@ provides-nominal:
 provides-member:
 - ["C8eggTImer14ViewController", ""]
 provides-dynamic-lookup:
-- "plusTen"
-- "timer"
 - "decreaseTimer"
-- "resetTimer"
+- "viewDidLoad"
 - "counter"
-- "playTimer"
+- "didReceiveMemoryWarning"
+- "timerLabel"
 - "pauseTimer"
 - "minusTen"
-- "timerLabel"
-- "didReceiveMemoryWarning"
-- "viewDidLoad"
+- "playTimer"
+- "timer"
+- "resetTimer"
+- "plusTen"
 depends-top-level:
-- "UIViewController"
-- "UILabel"
-- !private "-="
-- "Timer"
-- "AssignmentPrecedence"
-- !private "String"
-- "ViewController"
 - !private ">"
 - !private "+="
 - !private "BooleanLiteralType"
+- "ViewController"
+- "UILabel"
+- !private "String"
+- "UIViewController"
+- !private "-="
+- "AssignmentPrecedence"
+- "Timer"
 depends-member:
 - !private ["Ps9AnyObject", "String"]
 - ["Ps9AnyObject", "Timer"]
