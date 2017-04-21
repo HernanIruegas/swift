@@ -30,12 +30,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     
-    //initiated whenever a table row is tapped
+    //initiated whenever a table row is tapped, part of the UITableViewDelegate code
     //performs the segueway
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         activeRow = indexPath.row
         
+        //initiate the segueway
         performSegue(withIdentifier: "toSecondViewController", sender: nil)
         
     }
@@ -53,6 +54,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         if segue.identifier == "toSecondViewController" {
             
+            //this variable represents the SecondViewController
             let secondViewController = segue.destination as! SecondViewController // destinationViewController is now called destination
             
             secondViewController.activeRow = activeRow

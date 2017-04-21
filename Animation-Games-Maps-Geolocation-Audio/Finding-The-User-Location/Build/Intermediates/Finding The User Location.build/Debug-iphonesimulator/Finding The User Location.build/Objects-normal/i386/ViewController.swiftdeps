@@ -6,26 +6,26 @@ provides-nominal:
 provides-member:
 - ["C25Finding_The_User_Location14ViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 - "map"
 - "locationManager"
 - "locationManager"
 depends-top-level:
-- "ViewController"
-- !private "BooleanLiteralType"
-- "CLLocationManager"
-- "MKMapViewDelegate"
-- "UIViewController"
 - "CLLocation"
-- "CLLocationManagerDelegate"
+- "CLLocationManager"
+- "ViewController"
 - !private "CLLocationCoordinate2D"
+- !private "BooleanLiteralType"
+- "MKMapViewDelegate"
+- "CLLocationManagerDelegate"
+- "UIViewController"
 - "MKMapView"
-- "AssignmentPrecedence"
 - !private "MKCoordinateRegion"
 - !private "kCLLocationAccuracyBest"
-- !private "MKCoordinateSpan"
 - !private "CLLocationDegrees"
+- "AssignmentPrecedence"
+- !private "MKCoordinateSpan"
 depends-member:
 - !private ["Ps9AnyObject", "CLLocationCoordinate2D"]
 - ["Ps9AnyObject", "CLLocationManager"]

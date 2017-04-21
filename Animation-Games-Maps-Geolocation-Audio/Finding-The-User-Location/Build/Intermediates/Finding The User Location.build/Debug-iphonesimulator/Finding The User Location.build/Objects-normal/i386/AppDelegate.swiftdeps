@@ -6,21 +6,21 @@ provides-nominal:
 provides-member:
 - ["C25Finding_The_User_Location11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillTerminate"
-- "applicationWillResignActive"
+- "applicationWillEnterForeground"
 - "application"
 - "applicationDidEnterBackground"
-- "applicationWillEnterForeground"
 - "applicationDidBecomeActive"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
 - "window"
 depends-top-level:
-- "AnyObject"
-- "AppDelegate"
-- !private "BooleanLiteralType"
 - "UIWindow"
 - "UIApplication"
-- "UIResponder"
 - "Bool"
+- !private "BooleanLiteralType"
+- "AnyObject"
+- "AppDelegate"
+- "UIResponder"
 - "UIApplicationDelegate"
 - "NSObject"
 depends-member:

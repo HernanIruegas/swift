@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C16Memorable_Places11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidBecomeActive"
-- "applicationWillResignActive"
-- "applicationWillEnterForeground"
 - "application"
 - "applicationDidEnterBackground"
+- "applicationWillResignActive"
 - "window"
 - "applicationWillTerminate"
+- "applicationDidBecomeActive"
+- "applicationWillEnterForeground"
 depends-top-level:
-- "NSObject"
-- "AppDelegate"
-- "UIApplication"
-- "UIWindow"
-- "Bool"
-- "AnyObject"
-- "UIResponder"
 - !private "BooleanLiteralType"
+- "NSObject"
 - "UIApplicationDelegate"
+- "UIResponder"
+- "Bool"
+- "UIWindow"
+- "UIApplication"
+- "AppDelegate"
+- "AnyObject"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]

@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C4Maps11AppDelegate", ""]
 provides-dynamic-lookup:
+- "applicationDidBecomeActive"
+- "applicationWillResignActive"
+- "applicationWillEnterForeground"
 - "applicationDidEnterBackground"
 - "application"
-- "applicationWillResignActive"
-- "applicationWillTerminate"
 - "window"
-- "applicationDidBecomeActive"
-- "applicationWillEnterForeground"
+- "applicationWillTerminate"
 depends-top-level:
-- "UIApplication"
-- "Bool"
-- "UIWindow"
+- "AppDelegate"
 - "UIResponder"
+- "UIApplicationLaunchOptionsKey"
+- "UIWindow"
+- "Bool"
 - "UIApplicationDelegate"
 - !private "BooleanLiteralType"
-- "UIApplicationLaunchOptionsKey"
-- "AppDelegate"
+- "UIApplication"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]

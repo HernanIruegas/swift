@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C4Maps14ViewController", ""]
 provides-dynamic-lookup:
-- "longpress"
 - "didReceiveMemoryWarning"
-- "viewDidLoad"
 - "map"
+- "longpress"
+- "viewDidLoad"
 depends-top-level:
-- !private "StringLiteralType"
-- "MKMapView"
+- "MKMapViewDelegate"
+- "UIViewController"
+- "AssignmentPrecedence"
+- "UIGestureRecognizer"
+- !private "CLLocationCoordinate2D"
+- !private "MKCoordinateSpan"
+- !private "CLLocationDegrees"
 - !private "BooleanLiteralType"
+- "MKMapView"
+- !private "StringLiteralType"
 - "ViewController"
 - !private "MKPointAnnotation"
 - !private "MKCoordinateRegion"
-- !private "CLLocationDegrees"
 - !private "UILongPressGestureRecognizer"
-- "MKMapViewDelegate"
-- !private "CLLocationCoordinate2D"
-- "UIViewController"
-- "UIGestureRecognizer"
-- !private "MKCoordinateSpan"
-- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "CLLocationCoordinate2D"]
 - !private ["Ps9AnyObject", "MKCoordinateRegion"]

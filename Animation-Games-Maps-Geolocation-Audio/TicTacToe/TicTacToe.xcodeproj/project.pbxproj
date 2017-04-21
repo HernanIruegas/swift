@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D00615F1E0C99B0008636D1 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D00615E1E0C99B0008636D1 /* board.png */; };
-		4D0061611E0C99BA008636D1 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0061601E0C99BA008636D1 /* cross.png */; };
-		4D0061631E0C99C1008636D1 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0061621E0C99C1008636D1 /* nought.png */; };
+		4DCDEF7A1EA048D4003750DE /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCDEF791EA048D4003750DE /* board.png */; };
+		4DCDEF7C1EA048F3003750DE /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCDEF7B1EA048F3003750DE /* cross.png */; };
+		4DCDEF7E1EA048FA003750DE /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCDEF7D1EA048FA003750DE /* nought.png */; };
 		C88F3ABD1D1848310092FBC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88F3ABC1D1848310092FBC8 /* AppDelegate.swift */; };
 		C88F3ABF1D1848310092FBC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88F3ABE1D1848310092FBC8 /* ViewController.swift */; };
 		C88F3AC21D1848310092FBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88F3AC01D1848310092FBC8 /* Main.storyboard */; };
@@ -18,9 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D00615E1E0C99B0008636D1 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = board.png; path = ../../../../Downloads/TicTacToe/TicTacToe/board.png; sourceTree = "<group>"; };
-		4D0061601E0C99BA008636D1 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cross.png; path = ../../../../Downloads/TicTacToe/TicTacToe/cross.png; sourceTree = "<group>"; };
-		4D0061621E0C99C1008636D1 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nought.png; path = ../../../../Downloads/TicTacToe/TicTacToe/nought.png; sourceTree = "<group>"; };
+		4DCDEF791EA048D4003750DE /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		4DCDEF7B1EA048F3003750DE /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		4DCDEF7D1EA048FA003750DE /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 		C88F3AB91D1848310092FBC8 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88F3ABC1D1848310092FBC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C88F3ABE1D1848310092FBC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,9 +63,9 @@
 				C88F3ABC1D1848310092FBC8 /* AppDelegate.swift */,
 				C88F3ABE1D1848310092FBC8 /* ViewController.swift */,
 				C88F3AC01D1848310092FBC8 /* Main.storyboard */,
-				4D00615E1E0C99B0008636D1 /* board.png */,
-				4D0061601E0C99BA008636D1 /* cross.png */,
-				4D0061621E0C99C1008636D1 /* nought.png */,
+				4DCDEF791EA048D4003750DE /* board.png */,
+				4DCDEF7B1EA048F3003750DE /* cross.png */,
+				4DCDEF7D1EA048FA003750DE /* nought.png */,
 				C88F3AC31D1848310092FBC8 /* Assets.xcassets */,
 				C88F3AC51D1848310092FBC8 /* LaunchScreen.storyboard */,
 				C88F3AC81D1848310092FBC8 /* Info.plist */,
@@ -132,9 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0061611E0C99BA008636D1 /* cross.png in Resources */,
-				4D00615F1E0C99B0008636D1 /* board.png in Resources */,
-				4D0061631E0C99C1008636D1 /* nought.png in Resources */,
+				4DCDEF7C1EA048F3003750DE /* cross.png in Resources */,
+				4DCDEF7A1EA048D4003750DE /* board.png in Resources */,
+				4DCDEF7E1EA048FA003750DE /* nought.png in Resources */,
 				C88F3AC71D1848310092FBC8 /* LaunchScreen.storyboard in Resources */,
 				C88F3AC41D1848310092FBC8 /* Assets.xcassets in Resources */,
 				C88F3AC21D1848310092FBC8 /* Main.storyboard in Resources */,
