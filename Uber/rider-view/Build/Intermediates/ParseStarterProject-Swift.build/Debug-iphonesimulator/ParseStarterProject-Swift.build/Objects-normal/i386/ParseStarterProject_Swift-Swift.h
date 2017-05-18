@@ -180,7 +180,13 @@ SWIFT_CLASS("_TtC25ParseStarterProject_Swift14ViewController")
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified driverLabel;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified riderLabel;
 - (IBAction)switchSignupMode:(id _Nonnull)sender;
+/**
+  <em><em>we perform the segue to another view</em></em>*******************
+*/
 - (void)viewDidAppear:(BOOL)animated;
+/**
+  <hr/>
+*/
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

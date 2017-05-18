@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "8db114ba29cce1560f12258275ffdb25"
+build_time: [548292876, 285599000]
+inputs:
+  "/Users/hernaniruegasvillarreal/Documents/github/swift/Tinder/dragging-objects/Swipe Demo/ViewController.swift": [536799869, 0]
+  "/Users/hernaniruegasvillarreal/Documents/github/swift/Tinder/dragging-objects/Swipe Demo/AppDelegate.swift": [521197666, 0]

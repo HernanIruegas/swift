@@ -10,6 +10,65 @@ import UIKit
 import CoreData
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var logOutButton: UIButton!
+    
+    @IBOutlet var textField: UITextField!
+    
+    @IBOutlet var label: UILabel!
+    
+    @IBOutlet var logInButton: UIButton!
+    
+    var isLoggedIn = false
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate // UIApplication.shared().delegate as! AppDelegate is now UIApplication.shared.delegate as! AppDelegate
+        
+        
+        let context = appDelegate.persistentContainer.viewContext
+        
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Users")
+        
+        request.returnsObjectsAsFaults = false
+        
+        do {
+            
+            let results = try context.fetch(request)
+            
+            for result in results as! [NSManagedObject] {
+                
+                if let username = result.value(forKey: "name") as? String {
+                    
+                    logInButton.setTitle("Update username", for: [])
+                    
+                    logOutButton.alpha = 1
+                    
+                    label.alpha = 1
+                    
+                    label.text = "Hi there " + username + "!"
+                    
+                }
+                
+            }
+            
+            
+        } catch {
+            
+            print("Request failed")
+            
+        }
+        
+        
+        
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
 
 
     @IBAction func logOut(_ sender: AnyObject) {
@@ -64,15 +123,6 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBOutlet var logOutButton: UIButton!
-    
-    @IBOutlet var textField: UITextField!
-    
-    @IBOutlet var label: UILabel!
-    
-    @IBOutlet var logInButton: UIButton!
-    
-    var isLoggedIn = false
     
     @IBAction func logIn(_ sender: AnyObject) {
         
@@ -148,55 +198,5 @@ class ViewController: UIViewController {
         
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate // UIApplication.shared().delegate as! AppDelegate is now UIApplication.shared.delegate as! AppDelegate
-
-        
-        let context = appDelegate.persistentContainer.viewContext
-        
-        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Users")
-        
-        request.returnsObjectsAsFaults = false
-        
-        do {
-            
-            let results = try context.fetch(request)
-            
-            for result in results as! [NSManagedObject] {
-                
-                if let username = result.value(forKey: "name") as? String {
-                    
-                    logInButton.setTitle("Update username", for: [])
-                    
-                    logOutButton.alpha = 1
-                    
-                    label.alpha = 1
-                    
-                    label.text = "Hi there " + username + "!"
-                    
-                }
-                
-            }
-            
-            
-        } catch {
-            
-            print("Request failed")
-            
-        }
-        
-        
-        
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

@@ -6,30 +6,30 @@ provides-nominal:
 provides-member:
 - ["C11Log_In_Demo11AppDelegate", ""]
 provides-dynamic-lookup:
+- "window"
 - "persistentContainer"
 - "applicationWillEnterForeground"
-- "window"
-- "application"
 - "applicationDidEnterBackground"
+- "applicationWillTerminate"
+- "saveContext"
+- "application"
 - "applicationWillResignActive"
 - "applicationDidBecomeActive"
-- "saveContext"
-- "applicationWillTerminate"
 depends-top-level:
-- "UIWindow"
-- "CastingPrecedence"
 - "UIApplicationDelegate"
-- !private "NSError"
-- "NSPersistentContainer"
+- "CastingPrecedence"
+- "UIWindow"
 - "UIApplication"
 - "Bool"
+- "UIResponder"
 - "AppDelegate"
+- "AnyObject"
 - "NSObject"
 - !private "BooleanLiteralType"
 - !private "fatalError"
+- !private "NSError"
+- "NSPersistentContainer"
 - !private "StringLiteralType"
-- "AnyObject"
-- "UIResponder"
 depends-member:
 - !private ["Ps9AnyObject", "NSPersistentContainer"]
 - ["Ps9AnyObject", "application"]

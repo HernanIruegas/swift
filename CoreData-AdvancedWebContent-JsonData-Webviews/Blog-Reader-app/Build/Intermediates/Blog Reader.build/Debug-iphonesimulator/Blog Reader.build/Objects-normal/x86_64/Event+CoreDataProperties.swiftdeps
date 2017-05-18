@@ -9,16 +9,16 @@ provides-member:
 - ["C11Blog_Reader5Event", "timeStamp"]
 - ["C11Blog_Reader5Event", "title"]
 provides-dynamic-lookup:
+- "title"
 - "content"
 - "published"
 - "timeStamp"
-- "title"
 depends-top-level:
+- "Event"
 - "String"
-- !private "StringLiteralType"
 - "NSDate"
 - "NSFetchRequest"
-- "Event"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "NSFetchRequest"]
 - ["Ps9AnyObject", "content"]

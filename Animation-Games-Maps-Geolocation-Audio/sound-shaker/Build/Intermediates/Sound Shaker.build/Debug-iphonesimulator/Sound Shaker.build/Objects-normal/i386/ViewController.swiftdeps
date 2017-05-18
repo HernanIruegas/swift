@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C12Sound_Shaker14ViewController", ""]
 provides-dynamic-lookup:
-- "player"
-- "didReceiveMemoryWarning"
 - "motionEnded"
 - "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "player"
 depends-top-level:
-- !private "arc4random_uniform"
-- !private "Array"
-- !private "Int"
-- "AVAudioPlayer"
-- !private "Bundle"
+- "UIEventSubtype"
 - !private "=="
 - "AssignmentPrecedence"
-- "UIViewController"
-- !private "URL"
-- !private "UInt32"
 - "UIEvent"
-- !private "StringLiteralType"
 - "ViewController"
-- "UIEventSubtype"
+- !private "URL"
+- !private "Bundle"
+- !private "StringLiteralType"
+- !private "Array"
+- "UIViewController"
+- !private "arc4random_uniform"
+- !private "Int"
+- !private "UInt32"
+- "AVAudioPlayer"
 depends-member:
 - ["CSo13AVAudioPlayer", "deinit"]
 - ["CSo13AVAudioPlayer", "init"]

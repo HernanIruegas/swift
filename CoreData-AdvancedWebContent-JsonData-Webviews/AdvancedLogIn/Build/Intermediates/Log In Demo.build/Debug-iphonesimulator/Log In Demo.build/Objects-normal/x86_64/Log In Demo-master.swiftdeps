@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
-options: "649fef9b59d939e18b2ff5c7ebdbcbea"
-build_time: [536109231, 917928000]
+options: "e064009df936ec629e9cfc5848b855c5"
+build_time: [546493972, 725861000]
 inputs:
-  "/Users/hernaniruegasvillarreal/Documents/Swift/AdvancedLogIn/Log In Demo/ViewController.swift": [536098656, 0]
-  "/Users/hernaniruegasvillarreal/Documents/Swift/AdvancedLogIn/Log In Demo/AppDelegate.swift": [523510512, 0]
+  "/Users/hernaniruegasvillarreal/Documents/github/swift/CoreData-AdvancedWebContent-JsonData-Webviews/AdvancedLogIn/Log In Demo/ViewController.swift": [536098656, 0]
+  "/Users/hernaniruegasvillarreal/Documents/github/swift/CoreData-AdvancedWebContent-JsonData-Webviews/AdvancedLogIn/Log In Demo/AppDelegate.swift": [523510512, 0]

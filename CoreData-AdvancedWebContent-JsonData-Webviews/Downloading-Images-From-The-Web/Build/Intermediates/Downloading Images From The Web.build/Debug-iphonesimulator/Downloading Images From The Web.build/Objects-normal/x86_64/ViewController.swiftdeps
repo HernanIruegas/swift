@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C31Downloading_Images_From_The_Web14ViewController", ""]
 provides-dynamic-lookup:
-- "bachImageView"
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "bachImageView"
 depends-top-level:
-- !private "NSSearchPathForDirectoriesInDomains"
-- !private "StringLiteralType"
-- !private "UIImage"
-- "UIImageView"
-- !private ">"
-- "UIViewController"
-- !private "BooleanLiteralType"
-- "ViewController"
 - !private "+"
+- !private "NSSearchPathForDirectoriesInDomains"
+- "ViewController"
 - "AssignmentPrecedence"
+- "UIViewController"
+- !private "UIImage"
+- !private ">"
+- !private "StringLiteralType"
+- "UIImageView"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "NSSearchPathForDirectoriesInDomains"]
 - !private ["Ps9AnyObject", "UIImage"]

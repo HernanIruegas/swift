@@ -21,7 +21,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let url = URL(string: "https://www.googleapis.com/blogger/v3/blogs/10861780/posts?key=AIzaSyDJIrUYiKxX_U3Ifm1YqEw6vf1Ab9OxoS4")!
+        let url = URL(string: "https://www.googleapis.com/blogger/v3/blogs/10861780/posts?key=AIzaSyChvVXuoyNHh2hsabW71aVEk6ydETw4NWw")!
         
         let task = URLSession.shared.dataTask(with: url) { // URLSession.shared().dataTask(with: url) is now URLSession.shared.dataTask(with: url)
             (data, response, error) in
@@ -38,18 +38,20 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
                         
                         let jsonResult = try JSONSerialization.jsonObject(with: urlContent, options: JSONSerialization.ReadingOptions.mutableContainers) as AnyObject
                         
-                        print(jsonResult)
+                        //print(jsonResult)
                         
                         if let items = jsonResult["items"] as? NSArray {
                             
                             let context = self.fetchedResultsController.managedObjectContext
                             
+                            //we want to delete all the content within the Event entity
+                            //so that there is no repetitive titles in our table
                             let request = NSFetchRequest<Event>(entityName: "Event")
                             
                             do {
                                 
                                 let results = try context.fetch(request)
-                                
+                
                                 if results.count > 0 {
                                     
                                     for result in results {
@@ -65,15 +67,11 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
                                             print("Specific delete failed")
                                             
                                         }
-                                        
                                     }
-                                    
                                 }
-                                
                             } catch {
                                 
                                 print("Delete failed")
-                                
                             }
                             
                             
@@ -89,7 +87,6 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
                                 let newEvent = Event(context: context)
                                 
                                 //we are saving the info. in core data
-                                // If appropriate, configure the new managed object.
                                 newEvent.timeStamp = NSDate()
                                 newEvent.setValue(item["published"] as! String, forKey: "published")
                                 newEvent.setValue(item["title"] as! String, forKey: "title")
@@ -196,7 +193,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
     }
     
     // MARK: - Fetched results controller
-    
+    //manages coreData
     var fetchedResultsController: NSFetchedResultsController<Event> {
         if _fetchedResultsController != nil {
             return _fetchedResultsController!
@@ -207,6 +204,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         // Set the batch size to a suitable number.
         fetchRequest.fetchBatchSize = 20
         
+        //we sort the articles, newest on top
         // Edit the sort key as appropriate.
         let sortDescriptor = NSSortDescriptor(key: "published", ascending: false) // SortDescriptor(key: "published", ascending: false) is now NSSortDescriptor(key: "published", ascending: false)
         

@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
-options: "cb85481db8dae1fc4089ef024749455c"
-build_time: [536732698, 116950000]
+options: "9e06d048eedea47fa1bbc667bbe58e7e"
+build_time: [547632123, 889501000]
 inputs:
-  "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/spinners-alerts/spinners-alerts/ViewController.swift": [536394868, 0]
-  "/Users/hernaniruegasvillarreal/Documents/Swift/Instagram/spinners-alerts/spinners-alerts/AppDelegate.swift": [536393362, 0]
+  "/Users/hernaniruegasvillarreal/Documents/github/swift/Instagram/spinners-alerts/spinners-alerts/ViewController.swift": [536732928, 0]
+  "/Users/hernaniruegasvillarreal/Documents/github/swift/Instagram/spinners-alerts/spinners-alerts/AppDelegate.swift": [536393362, 0]

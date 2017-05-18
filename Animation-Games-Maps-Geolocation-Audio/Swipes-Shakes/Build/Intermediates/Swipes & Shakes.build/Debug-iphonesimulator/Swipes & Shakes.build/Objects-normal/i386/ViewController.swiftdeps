@@ -6,24 +6,24 @@ provides-nominal:
 provides-member:
 - ["C15Swipes___Shakes14ViewController", ""]
 provides-dynamic-lookup:
-- "swiped"
 - "didReceiveMemoryWarning"
 - "viewDidLoad"
+- "swiped"
 - "motionEnded"
 depends-top-level:
-- "ViewController"
 - !private "print"
+- "UIEventSubtype"
+- "ViewController"
+- !private "StringLiteralType"
 - "UIEvent"
 - !private "UISwipeGestureRecognizerDirection"
-- "UIEventSubtype"
-- !private "StringLiteralType"
-- "UIGestureRecognizer"
 - !private "UISwipeGestureRecognizer"
 - "UIViewController"
-- !private "~="
 - "AssignmentPrecedence"
+- !private "~="
 - !private "=="
 - "CastingPrecedence"
+- "UIGestureRecognizer"
 depends-member:
 - !private ["Ps9AnyObject", "UIEventSubtype"]
 - !private ["Ps9AnyObject", "UISwipeGestureRecognizer"]

@@ -14,13 +14,10 @@ class DetailViewController: UIViewController {
 
     func configureView() {
         // Update the user interface for the detail item.
-        
-        
-        
         if let detail = self.detailItem {
-            
+            //this is for the title of the view controller
             self.title = detail.value(forKey: "title") as! String
-            
+            //if a webView exists, then display some content
             if let blogWebView = self.webView {
                 blogWebView.loadHTMLString(detail.value(forKey: "content") as! String, baseURL: nil)
             }

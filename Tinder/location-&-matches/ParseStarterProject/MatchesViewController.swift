@@ -14,7 +14,7 @@ class MatchesViewController: UIViewController, UITableViewDelegate, UITableViewD
     @IBOutlet var tableView: UITableView!
     
     var images = [UIImage]()//contains photos of users that meet the query
-    var userIds = [String]()//this is for the hiddel label
+    var userIds = [String]()//this is for the hidden label
     var messages = [String]()
 
     override func viewDidLoad() {

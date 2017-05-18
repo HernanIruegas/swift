@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C11Blog_Reader20DetailViewController", ""]
 provides-dynamic-lookup:
-- "webView"
-- "viewDidLoad"
 - "detailItem"
-- "configureView"
 - "didReceiveMemoryWarning"
+- "configureView"
+- "viewDidLoad"
+- "webView"
 depends-top-level:
-- "AssignmentPrecedence"
-- "CastingPrecedence"
+- !private "StringLiteralType"
 - "UIWebView"
-- !private "String"
 - "UIViewController"
 - "DetailViewController"
-- !private "StringLiteralType"
 - "Event"
+- !private "String"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
 depends-member:
 - ["Ps9AnyObject", "configureView"]
 - ["Ps9AnyObject", "detailItem"]

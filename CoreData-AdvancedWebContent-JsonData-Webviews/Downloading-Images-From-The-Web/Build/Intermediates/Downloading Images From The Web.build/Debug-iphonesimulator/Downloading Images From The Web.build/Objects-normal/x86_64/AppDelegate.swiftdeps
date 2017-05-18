@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C31Downloading_Images_From_The_Web11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillResignActive"
-- "applicationDidBecomeActive"
-- "applicationWillTerminate"
 - "applicationWillEnterForeground"
-- "application"
-- "window"
 - "applicationDidEnterBackground"
+- "application"
+- "applicationDidBecomeActive"
+- "applicationWillResignActive"
+- "window"
+- "applicationWillTerminate"
 depends-top-level:
-- "NSObject"
 - "UIWindow"
-- !private "BooleanLiteralType"
-- "AppDelegate"
-- "AnyObject"
 - "Bool"
-- "UIApplicationDelegate"
 - "UIApplication"
 - "UIResponder"
+- "AppDelegate"
+- "NSObject"
+- !private "BooleanLiteralType"
+- "AnyObject"
+- "UIApplicationDelegate"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]

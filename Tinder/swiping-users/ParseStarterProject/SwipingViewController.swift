@@ -13,7 +13,7 @@ class SwipingViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
     
-    var displayedUserID = ""//contains the the userID of the current user being displayed to our logged in user, for him to swipe him/her right or left
+    var displayedUserID = ""//contains the userID of the current user being displayed to our logged in user, for him to swipe him/her right or left
     
     //most of the code of this function is copied from the video of dragging objects
     func wasDragged(gestureRecognizer: UIPanGestureRecognizer) {

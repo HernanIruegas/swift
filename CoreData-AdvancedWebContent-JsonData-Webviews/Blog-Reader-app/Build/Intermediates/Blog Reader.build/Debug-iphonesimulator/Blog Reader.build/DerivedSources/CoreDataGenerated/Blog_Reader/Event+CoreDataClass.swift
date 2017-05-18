@@ -2,7 +2,7 @@
 //  Event+CoreDataClass.swift
 //  
 //
-//  Created by Hernán Iruegas Villarreal on 29/12/16.
+//  Created by Hernán Iruegas Villarreal on 27/04/17.
 //
 //  This file was automatically generated and should not be edited.
 //

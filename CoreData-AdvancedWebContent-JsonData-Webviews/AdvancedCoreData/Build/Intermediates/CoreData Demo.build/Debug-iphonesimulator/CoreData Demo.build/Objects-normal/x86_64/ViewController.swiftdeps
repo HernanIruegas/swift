@@ -9,20 +9,20 @@ provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
 - "viewDidLoad"
 depends-top-level:
+- "CastingPrecedence"
+- "AssignmentPrecedence"
+- !private ">"
 - "ViewController"
-- !private "StringLiteralType"
+- !private "NSManagedObject"
 - !private "UIApplication"
-- !private "String"
+- "UIViewController"
 - !private "BooleanLiteralType"
 - !private "print"
-- !private "NSManagedObject"
+- !private "StringLiteralType"
+- !private "String"
 - !private "AppDelegate"
-- !private "NSFetchRequest"
 - !private "NSFetchRequestResult"
-- "UIViewController"
-- "AssignmentPrecedence"
-- "CastingPrecedence"
-- !private ">"
+- !private "NSFetchRequest"
 depends-member:
 - !private ["Ps9AnyObject", "NSFetchRequest"]
 - !private ["Ps9AnyObject", "UIApplication"]

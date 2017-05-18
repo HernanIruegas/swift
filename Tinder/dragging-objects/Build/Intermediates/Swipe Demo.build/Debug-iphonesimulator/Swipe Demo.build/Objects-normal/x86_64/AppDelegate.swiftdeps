@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C10Swipe_Demo11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillResignActive"
 - "applicationWillTerminate"
-- "applicationDidBecomeActive"
-- "window"
+- "applicationWillResignActive"
+- "applicationWillEnterForeground"
 - "applicationDidEnterBackground"
 - "application"
-- "applicationWillEnterForeground"
+- "window"
+- "applicationDidBecomeActive"
 depends-top-level:
-- "AppDelegate"
-- "AnyObject"
-- "UIApplicationDelegate"
+- "UIWindow"
 - "UIResponder"
 - "NSObject"
-- "UIWindow"
+- "AppDelegate"
 - !private "BooleanLiteralType"
 - "Bool"
+- "AnyObject"
+- "UIApplicationDelegate"
 - "UIApplication"
 depends-member:
 - ["Ps9AnyObject", "application"]

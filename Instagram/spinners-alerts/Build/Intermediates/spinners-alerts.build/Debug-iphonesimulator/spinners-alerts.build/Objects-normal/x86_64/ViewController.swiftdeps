@@ -6,26 +6,26 @@ provides-nominal:
 provides-member:
 - ["C15spinners_alerts14ViewController", ""]
 provides-dynamic-lookup:
-- "restoreApp"
-- "viewDidLoad"
 - "createAlert"
-- "didReceiveMemoryWarning"
-- "activityIndicator"
 - "pauseApp"
+- "viewDidLoad"
+- "activityIndicator"
+- "restoreApp"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- "ViewController"
-- "AssignmentPrecedence"
-- !private "UIAlertControllerStyle"
-- "AnyObject"
 - !private "print"
 - !private "UIAlertAction"
 - !private "UIAlertController"
+- !private "CGRect"
+- "AssignmentPrecedence"
 - !private "UIActivityIndicatorViewStyle"
+- "AnyObject"
+- !private "UIAlertControllerStyle"
+- "UIViewController"
+- !private "StringLiteralType"
+- "ViewController"
 - "UIActivityIndicatorView"
 - "BooleanLiteralType"
-- "UIViewController"
-- !private "CGRect"
-- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "CGRect"]
 - ["Ps9AnyObject", "UIActivityIndicatorView"]

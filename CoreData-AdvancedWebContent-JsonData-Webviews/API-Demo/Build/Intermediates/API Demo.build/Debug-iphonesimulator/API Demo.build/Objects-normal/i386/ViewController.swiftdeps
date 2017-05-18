@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C8API_Demo14ViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "JSONSerialization"
-- "UIViewController"
-- !private "NSArray"
-- !private "URL"
+- "ViewController"
+- !private "print"
 - !private "CastingPrecedence"
+- !private "NSDictionary"
+- !private "!="
+- !private "URLSession"
+- !private "JSONSerialization"
+- !private "NSArray"
+- !private "AnyObject"
+- !private "URL"
+- "UIViewController"
 - !private "String"
 - !private "StringLiteralType"
-- !private "URLSession"
-- !private "!="
-- !private "AnyObject"
-- !private "print"
-- "ViewController"
-- !private "NSDictionary"
 depends-member:
 - !private ["Ps9AnyObject", "JSONSerialization"]
 - !private ["Ps9AnyObject", "ReadingOptions"]

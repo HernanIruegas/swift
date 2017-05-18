@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C12Sound_Shaker11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillResignActive"
-- "applicationWillTerminate"
 - "window"
 - "applicationWillEnterForeground"
-- "applicationDidBecomeActive"
 - "applicationDidEnterBackground"
+- "applicationDidBecomeActive"
 - "application"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
 depends-top-level:
-- "NSObject"
-- "AppDelegate"
-- "UIApplication"
-- "UIResponder"
-- "UIApplicationDelegate"
-- "UIWindow"
 - "Bool"
-- !private "BooleanLiteralType"
+- "NSObject"
 - "AnyObject"
+- !private "BooleanLiteralType"
+- "AppDelegate"
+- "UIWindow"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIResponder"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]

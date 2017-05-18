@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate        
+        //this variable refers to the AppDelegate.swift file, which has methods to handle CoreData
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        //context helps us access CoreData or retrieve info.
         let context = appDelegate.persistentContainer.viewContext
         
         /***********************
@@ -26,8 +28,7 @@ class ViewController: UIViewController {
         newUser.setValue("ralphie", forKey: "username")
         newUser.setValue("myPass", forKey: "password")
         newUser.setValue(2, forKey: "age")
-
-        
+         
         do {
             
             try context.save()
@@ -42,6 +43,7 @@ class ViewController: UIViewController {
  
         ***********************/
         
+        //request serve to access coreData
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Users")
         
         /***********************
@@ -52,7 +54,8 @@ class ViewController: UIViewController {
          
         ***********************/
  
- 
+        //by default, when the request is run, the device instead of returning the actual values, it returns Faults,
+        //which we do not want, that is why we set it to equal to false
         request.returnsObjectsAsFaults = false
         
         do {
@@ -61,6 +64,7 @@ class ViewController: UIViewController {
             
             if results.count > 0 {
                 
+                //we cast NSFetchRequestResult to an array of NSManagedObjects
                 for result in results as! [NSManagedObject] {
                     
                     if let username = result.value(forKey: "username") as? String {

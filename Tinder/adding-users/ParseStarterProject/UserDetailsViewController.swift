@@ -145,7 +145,7 @@ class UserDetailsViewController: UIViewController, UINavigationControllerDelegat
                 
                 user.password = "password"
                 
-                user["isInterestedInWomen"] = false//we want the users that appear on the images to be interested in men, so they can appearto our male logged in user
+                user["isInterestedInWomen"] = false//we want the users that appear on the images to be interested in men, so they can appear to our male logged in user
                 
                 user["isFemale"] = true
                 

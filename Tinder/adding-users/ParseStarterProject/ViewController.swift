@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet var passwordField: UITextField!
     @IBOutlet var signupOrLoginButton: UIButton!
     @IBOutlet var changeSignupModeButton: UIButton!
+    
     @IBAction func signupOrLogin(_ sender: AnyObject) {
         
         if signupMode {

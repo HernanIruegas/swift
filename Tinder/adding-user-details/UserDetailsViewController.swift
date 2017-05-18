@@ -12,6 +12,9 @@ import Parse
 class UserDetailsViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     @IBOutlet var userImage: UIImageView!
+    @IBOutlet var genderSwitch: UISwitch!
+    @IBOutlet var interestedInSwitch: UISwitch!
+    @IBOutlet var errorLabel: UILabel!
     
     //here we display the user's photo library so that he can select an image of his choice
     @IBAction func updateProfileImage(_ sender: AnyObject) {
@@ -37,14 +40,6 @@ class UserDetailsViewController: UIViewController, UINavigationControllerDelegat
         
         self.dismiss(animated: true, completion: nil)
     }
-
-    
-    @IBOutlet var genderSwitch: UISwitch!
-    
-    @IBOutlet var interestedInSwitch: UISwitch!
-    
-    @IBOutlet var errorLabel: UILabel!
-    
     
     @IBAction func update(_ sender: AnyObject) {
         

@@ -7,7 +7,7 @@
 * of patent rights can be found in the PATENTS file in the same directory.
 */
 
-//we just add the segues between the signupOrLogin view and the new UserTableViewController after the user has either signed up or logged in
+//we just added the segues between the signupOrLogin view and the new UserTableViewController after the user has either signed up or logged in
 //we added some code for the already logged in user
 
 import UIKit

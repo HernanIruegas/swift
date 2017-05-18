@@ -49,6 +49,7 @@ class ViewController: UIViewController {
         
         let request = NSMutableURLRequest(url: url)
         
+        //task is an asynchronous process
         let task = URLSession.shared().dataTask(with: request as URLRequest) {
             data, response, error in
             
@@ -65,8 +66,9 @@ class ViewController: UIViewController {
                         self.bachImageView.image = bachImage
                         
                         //if the image is already downloaded, we want to show it, not from the web, but from the device
-                        //domainMask = where we are looking for our files: we want to share relative to user's directory
-                        //documentsPath is anarray of results
+                        //domainMask = where we are looking for our files: we want to search relative to user's directory
+                        //documentsPath is an array of results
+                        //we search for local directories within the app
                         let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
                     
                         if documentsPath.count > 0 {
@@ -76,7 +78,7 @@ class ViewController: UIViewController {
                                 let savePath = documentsDirectory + "/bach.jpg" //here is exactly were we save the path of our image
                                 
                                 do {
-                                
+                                //compression quality is a number between 0 - 1
                                 try UIImageJPEGRepresentation(bachImage, 1)?.write(to: URL(fileURLWithPath: savePath)) //we attach our image to its path
                                     
                                 } catch {
