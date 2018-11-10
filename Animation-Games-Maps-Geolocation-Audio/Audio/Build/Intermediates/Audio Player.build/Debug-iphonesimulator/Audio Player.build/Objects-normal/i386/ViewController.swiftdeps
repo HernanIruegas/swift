@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C12Audio_Player14ViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
-- "sliderMoved"
-- "player"
-- "didReceiveMemoryWarning"
-- "slider"
 - "play"
 - "pause"
+- "sliderMoved"
+- "slider"
+- "didReceiveMemoryWarning"
+- "player"
+- "viewDidLoad"
 depends-top-level:
-- "UIViewController"
-- "AssignmentPrecedence"
-- !private "Bundle"
-- "AVAudioPlayer"
-- !private "URL"
-- "UISlider"
-- !private "StringLiteralType"
 - "ViewController"
+- !private "URL"
+- "AssignmentPrecedence"
+- "AVAudioPlayer"
+- !private "Bundle"
+- !private "StringLiteralType"
+- "UIViewController"
 - "AnyObject"
+- "UISlider"
 depends-member:
 - ["CSo13AVAudioPlayer", "deinit"]
 - ["CSo13AVAudioPlayer", "init"]

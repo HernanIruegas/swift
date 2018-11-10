@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
 options: "a519d12465f2023cda758d008dc3271d"
-build_time: [546712349, 898250000]
+build_time: [574225262, 419288000]
 inputs:
-  "/Users/hernaniruegasvillarreal/Documents/github/swift/CoreData-AdvancedWebContent-JsonData-Webviews/AdvancedCoreData/CoreData Demo/ViewController.swift": [546493964, 0]
+  "/Users/hernaniruegasvillarreal/Documents/github/swift/CoreData-AdvancedWebContent-JsonData-Webviews/AdvancedCoreData/CoreData Demo/ViewController.swift": [546712810, 0]
   "/Users/hernaniruegasvillarreal/Documents/github/swift/CoreData-AdvancedWebContent-JsonData-Webviews/AdvancedCoreData/CoreData Demo/AppDelegate.swift": [523510440, 0]
